@@ -1,0 +1,271 @@
+.projectList-table :global(table tr th) {
+  white-space: nowrap;
+}
+.projectList-table :global(.react-bootstrap-table table){
+  margin-top: -3px;
+} 
+.projectList-table :global(table tr td:nth-child(4)),
+.projectList-table :global(table tr th:nth-child(4)) {
+  width: 7%;
+  overflow: visible;
+}
+.auditionList-table :global(table tr td:first-child),
+.auditionList-table :global(table tr th:first-child){
+  padding-left: 0.75rem !important;
+}
+.auditionList-table :global(table tr th) {
+  white-space: nowrap;
+}
+.auditionList-table .calendar-header {
+  width: 12.5%;
+}
+.auditionList-table :global(table tr th:nth-child(9)),
+.auditionList-table :global(table tr td:nth-child(9)) {
+  padding-right: 0.5rem;
+  padding-left: 1rem;
+  min-width: unset;
+  max-width: 100%;
+}
+.auditionList-table .character {
+  width: 19%;
+}
+.auditionList-table :global(table tr th:nth-child(4)),
+.auditionList-table :global(table tr th:nth-child(5)){
+width:7.5%;
+}
+.auditionList-table :global(table tr th:nth-child(6)){
+  width:10%;
+}
+.auditionList-table :global(table tr th:nth-child(10)),
+.auditionList-table :global(table tr td:nth-child(10)) {
+  width: 5% !important;
+  max-width: 100%;
+  min-width: unset;
+}
+.auditionList-table :global(table tr td:nth-child(9)) {
+  text-overflow: unset;
+  overflow: unset;
+  white-space: unset;
+}
+
+.castList-table .Talent {
+  width: 14%;
+}
+.castList-table .character {
+  width: 14%;
+}
+.castList-table :global(table tr th) {
+  white-space: nowrap;
+}
+.castList-table :global(table tr th:nth-child(1)),
+.castList-table :global(table tr td:nth-child(1)) {
+    width:12%;
+}
+.castList-table :global(table tr th:nth-child(7)),
+.castList-table :global(table tr td:nth-child(7)) {
+  padding-right: 0rem;
+  width: 6% !important;
+}
+.castList-table :global(table tr td:nth-child(6)),
+.castList-table :global(table tr th:nth-child(6)) {
+  text-overflow: unset;
+  overflow: unset;
+  white-space: unset;
+  width: 15.5%;
+}
+.castList-table :global(table tr td:nth-child(3)),
+.castList-table :global(table tr th:nth-child(3)) {
+  width: 12%;
+}
+.castList-table :global(table tr th:nth-child(4)),
+.castList-table :global(table tr th:nth-child(5)) {
+  width: 15%;
+}
+.auditionList-table .notes-header {
+  width: 8%;
+}
+.castList-table .action-header,
+.castList-table :global(table tr td:nth-child(8)),
+.castList-table :global(table tr th:nth-child(8)) {
+  width: 4%;
+}
+.wrap-table {
+  word-break: break-all;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.project-name-color :global(p) {
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  color: #8ed506 !important;
+}
+.mile_select {
+  width: 12rem;
+}
+@media only screen and (min-width: 1261px) and (max-width: 1800px) {
+.auditionList-table :global(table){
+width:100%;
+table-layout: unset;
+padding-right: 0.25rem;
+}
+.projectList-table :global(table tr td:nth-child(4)),
+.projectList-table :global(table tr th:nth-child(4)) {
+  width: 10%;
+}
+.auditionList-table :global(table tr th),
+.auditionList-table :global(table tr td){
+  min-width: 7.5rem;
+  width:7.5rem;
+  max-width: 7.5rem;
+}
+.auditionList-table :global(table tr th:nth-child(6)),
+.auditionList-table :global(table tr td:nth-child(6)){
+  min-width: 11rem;
+  width:11rem;
+  max-width: 11rem;
+}
+.auditionList-table :global(table tr th:nth-child(7)),
+.auditionList-table :global(table tr td:nth-child(7)){
+  min-width: 9rem;
+  width:9rem;
+  max-width: 9rem;
+}
+}
+@media only screen and (min-width: 320px) and (max-width: 1023px) {
+  .auditionList-table .calendar-header {
+    width: 29.5%;
+  }
+  .castList-table :global(table tr td:nth-child(8)),
+.castList-table :global(table tr th:nth-child(8)) {
+    width: 5%;
+  }
+  .projectList-table .action-header,
+  .projectList-table :global(table tr td:nth-child(4)),
+  .projectList-table :global(table tr th:nth-child(4)) {
+  width: 12%;
+}
+.auditionList-table :global(table){
+  width:100%;
+  table-layout: unset;
+  padding-right: 0.25rem;
+  }
+  .auditionList-table :global(table tr th),
+.auditionList-table :global(table tr td){
+  min-width: 7.5rem;
+  width:7.5rem;
+  max-width: 7.5rem;
+}
+.auditionList-table :global(table tr th:nth-child(6)),
+.auditionList-table :global(table tr td:nth-child(6)){
+  min-width: 11rem;
+  width:11rem;
+  max-width: 11rem;
+}
+.auditionList-table :global(table tr th:nth-child(7)),
+.auditionList-table :global(table tr td:nth-child(7)){
+  min-width: 9rem;
+  width:9rem;
+  max-width: 9rem;
+}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1260px) {
+  .auditionList-table .calendar-header {
+    width: 29.5%;
+  }
+  .castList-table :global(table tr td:nth-child(8)),
+.castList-table :global(table tr th:nth-child(8)) {
+    width: 5%;
+  }
+  .projectList-table .action-header,
+  .projectList-table :global(table tr td:nth-child(4)),
+  .projectList-table :global(table tr th:nth-child(4)) {
+  width: 12%;
+}
+.auditionList-table :global(table){
+  width:100%;
+  table-layout: unset;
+  padding-right: 0.25rem;
+  }
+  .auditionList-table :global(table tr th),
+  .auditionList-table :global(table tr td){
+    min-width: 7.5rem;
+    width:7.5rem;
+    max-width: 7.5rem;
+  }
+  .auditionList-table :global(table tr th:nth-child(6)),
+  .auditionList-table :global(table tr td:nth-child(6)){
+    min-width: 11rem;
+    width:11rem;
+    max-width: 11rem;
+  }
+  .auditionList-table :global(table tr th:nth-child(7)),
+  .auditionList-table :global(table tr td:nth-child(7)){
+    min-width: 9rem;
+    width:9rem;
+    max-width: 9rem;
+  }
+}
+@media only screen and (min-width: 1280px) and (max-width: 1360px) {
+  .auditionList-table .calendar-header {
+    width: 24.5%;
+  }
+  .castList-table :global(table tr td:nth-child(8)),
+.castList-table :global(table tr th:nth-child(8)){
+    width: 5%;
+  }
+}
+@media only screen and (min-width: 1366px) and (max-width: 1400px) {
+  .auditionList-table .calendar-header {
+    width: 24%;
+  }
+  .castList-table :global(table tr td:nth-child(8)),
+  .castList-table :global(table tr th:nth-child(8)) {
+    width: 5%;
+  }
+}
+@media only screen and (min-width: 1410px) and (max-width: 1440px) {
+  .auditionList-table .calendar-header {
+    width: 24%;
+  }
+  .castList-table :global(table tr td:nth-child(8)),
+  .castList-table :global(table tr th:nth-child(8)) {
+    width: 5%;
+  }
+}
+@media only screen and (min-width: 1450px) and (max-width: 1590px) {
+  .auditionList-table .calendar-header {
+    width: 22.5%;
+  }
+  .castList-table :global(table tr td:nth-child(8)),
+.castList-table :global(table tr th:nth-child(8)) {
+    width: 5%;
+  }
+}
+@media only screen and (min-width: 1600px) and (max-width: 1800px) {
+  .auditionList-table .calendar-header {
+    width: 16.25%;
+  }
+  .castList-table :global(table tr td:nth-child(8)),
+  .castList-table :global(table tr th:nth-child(8)) {
+    width: 5%;
+  }
+  .auditionList-table .character {
+    width: 15%;
+  }
+}
+@media only screen and (min-width: 1930px) and (max-width: 2200px) {
+  .auditionList-table .calendar-header {
+    width: 22%;
+  }
+  .castList-table :global(table tr td:nth-child(8)),
+  .castList-table :global(table tr th:nth-child(8)) {
+    width: 5%;
+  }
+}

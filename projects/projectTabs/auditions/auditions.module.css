@@ -1,0 +1,1786 @@
+.project-header {
+  margin-bottom: 0rem;
+  background-color: var(--bg-primary);
+  box-shadow: 0px 3px 15px #0000000d;
+  border: 1px solid var(--primary-border);
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: var(--color-primary-700);
+  padding: 0.938rem 1.875rem;
+}
+.scripts-text {
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  text-decoration: underline;
+  color: var(--main-theme-color);
+  padding-right: 0.938rem;
+}
+
+.slot_not_available {
+  color: var(--color-primary-700);
+  font-weight: 400;
+  line-height: 1.125rem;
+  font-size: 0.75rem;
+  background-color: #d5d5d5;
+  box-shadow: var(--primary-shadow);
+  border-radius: 10px;
+  padding: 0.938rem 1.125rem !important;
+}
+
+.user_availablity_popover :global(p) {
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  color: var(--color-primary-700);
+  margin-bottom: 1rem;
+}
+
+.user_availablity_popover :global(span) {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  color: var(--text-gray-color);
+}
+
+.user_availability:global(.popover) {
+  margin-top: 0.35rem !important;
+  width: 22rem;
+  max-width: 23rem;
+  box-shadow: 0px 3px 30px #00000014 !important;
+  border: 1px solid #dcdcdc !important;
+  z-index: 1060 !important;
+}
+
+.user_more_popover:global(.popover) {
+  margin-top: 0.65rem !important;
+  min-width: 63%;
+  max-width: 63%;
+  left: auto !important;
+  right: 74rem !important;
+  box-shadow: var(--primary-shadow);
+}
+
+.user_availability:global(.popover .popover-body) {
+  padding: 0.875rem 1.125rem;
+}
+
+.user_more_popover:global(.popover .popover-body) {
+  padding: 0rem;
+}
+.usersMore_popover :global(.users-event-list) {
+padding-left: 0.75rem;
+padding-right: 0.75rem;
+}
+.user_more_popover :global(.popover-body .usersMore_popover-list){
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+.users_more_height :global(.two-events .users-event-list){
+ max-width:10rem;
+ min-width: 5rem;
+}
+.users_more_height :global(.three-events .users-event-list){
+ max-width: 10rem; 
+ min-width: 5rem;
+}
+.users_more_height :global(.one-event .users-event-list){
+  max-width: 12rem;
+  min-width: 5rem;
+}
+.users_more_height :global(.two-events:nth-child(1)){
+border-top-left-radius: 0.625rem;
+border-bottom-left-radius: 0.625rem;
+}
+.users_more_height :global(.one-event){
+  border-radius: 0.625rem;
+}
+.users_more_height :global(.three-events:nth-child(1)){
+  border-top-left-radius: 0.625rem;
+  border-bottom: 2px solid var(--border-color);
+}
+.users_more_height :global(.three-events:nth-child(2)){
+  border-top-right-radius: 0.625rem;
+  border-bottom: 2px solid var(--border-color);
+}
+.users_more_height :global(.three-events:nth-child(3)){
+  border-bottom-left-radius: 0.625rem;
+  width:100%;
+  border-bottom-right-radius: 0.625rem;
+}
+.users_more_height :global(.two-events:nth-child(2)){
+  border-top-right-radius: 0.625rem;
+  border-bottom-right-radius: 0.625rem;
+}
+.more_user :global(span) {
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.313rem;
+  color: var(--color-primary-700);
+}
+
+.more_user {
+  cursor: pointer;
+}
+
+.equipment_box {
+  margin-top: 0.456rem;
+  background-color: var(--bg-secondary-700);
+  border: 1px solid var(--primary-border);
+  box-shadow: 0rem 0.375rem 1.375rem #6b78780d;
+  border-radius: 0.3rem;
+  padding: 0.625rem 1.25rem;
+  position: absolute;
+  left: 8rem;
+  top: 2.65rem;
+  max-width: 100%;
+  min-width: 21.5rem;
+  z-index: 1999;
+}
+
+.session-top-equipment_box:after {
+  content: ' ';
+  position: absolute;
+  left: 3rem;
+  top: -0.658rem;
+  border-top: none;
+  border-right: 0.5rem solid transparent;
+  border-left: 0.5rem solid transparent;
+  border-bottom: 0.675rem solid #383338;
+}
+
+.equipment-error :global(p) {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.09px;
+  color: var(--color-secondary);
+  margin-bottom: 0rem;
+  margin-left: 1.25rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.Equipment-select {
+  width: 16rem;
+}
+
+.scripts-text:hover {
+  color: var(--main-theme-color);
+}
+
+.notes-popover:global(.list-modal-popover.popover) {
+  right: 0.23rem !important;
+  top: 0.4995rem !important;
+}
+
+.notes-popover:global(.list-modal-popover.popover .arrow) {
+  top: -0.35rem !important;
+}
+
+.notes-auditions-table .action-header {
+  width: 4%;
+  max-width: 100%;
+}
+
+.view-auditions-table .action-header {
+  width: 4%;
+  max-width: 100%;
+}
+
+.notes-auditions-table :global(table tr td:nth-child(4)),
+.notes-auditions-table :global(table tr th:nth-child(4)) {
+  width: 21%;
+  max-width: 100%;
+}
+
+.notes-auditions-table :global(table tr td:nth-child(3)),
+.notes-auditions-table :global(table tr th:nth-child(3)) {
+  width: 15%;
+  max-width: 100%;
+}
+
+.notes-auditions-table :global(table tr td:nth-child(2)),
+.notes-auditions-table :global(table tr th:nth-child(2)),
+.notes-auditions-table :global(table tr td:nth-child(5)),
+.notes-auditions-table :global(table tr th:nth-child(5)),
+.notes-auditions-table :global(table tr td:nth-child(6)),
+.notes-auditions-table :global(table tr th:nth-child(6)) {
+  width: 15%;
+  max-width: 100%;
+}
+
+.notes-auditions-table :global(table tr th:first-child) {
+  width: 5% !important;
+}
+
+.view-auditions-table {
+  max-height: 27rem;
+}
+
+.dropfile-in-documents {
+  padding: 0.938rem;
+  border: 2px dashed var(--border-dashed);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.view-auditions-table .shortlist-header {
+  width: 8.675%;
+  max-width: 100%;
+}
+
+.view-auditions-table .ShortlistedProfiles,
+.view-auditions-table .Character {
+  width: 18%;
+  max-width: 100%;
+}
+
+.view-auditions-table .Scripts {
+  width: 30%;
+  max-width: 100%;
+}
+
+.auditions-box {
+  background-color: var(--bg-gray-700);
+  border: 1px solid var(--primary-border);
+  border-radius: 5px;
+  padding: 1.25rem;
+}
+
+.auditions-table-box {
+  box-shadow: var(--primary-shadow);
+  border: 1px solid var(--primary-border);
+  border-radius: 5px;
+  padding: 1.25rem;
+  background-color: var(--bg-primary);
+}
+
+.view-auditions-table :global(table tr th) {
+  white-space: nowrap;
+}
+
+.empty-audi {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  color: var(--color-primary-700);
+}
+
+.upload-text {
+  font-size: 0.75rem;
+  flex: 1 1;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 450;
+  line-height: 1.125rem;
+  color: var(--color-upload);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  word-break: break-all;
+  word-wrap: break-word;
+  max-width:13rem;
+}
+
+.doc-placeholder::placeholder {
+  opacity: 0.31;
+}
+
+.day-container :global(p) {
+  font-weight: 600;
+  line-height: 1rem;
+  font-size: 0.875rem;
+  color: var(--color-primary-700);
+  margin-bottom: 0rem;
+}
+
+.day-container :global(span) {
+  font-weight: 600;
+  line-height: 1rem;
+  font-size: 0.875rem;
+  color: var(--color-primary-700);
+}
+
+.gap-spaces :global(p) {
+  font-weight: 500;
+  line-height: 1.125rem;
+  font-size: 0.75rem;
+  color: var(--color-primary-700);
+  margin-bottom: 0.525rem;
+}
+
+.gap-spaces :global(span) {
+  font-weight: 400;
+  line-height: 1.125rem;
+  font-size: 0.75rem;
+  color: var(--color-primary-700);
+}
+
+.gap-spaces {
+  padding-left: 2.565rem;
+  padding-right: 2.565rem;
+}
+
+.sess-dur {
+  font-weight: 400;
+  line-height: 1.125rem;
+  font-size: 0.75rem;
+  color: var(--color-primary-700);
+  margin-bottom: 0rem;
+  margin-top: 0.625rem;
+}
+
+.break-box {
+  background-color: var(--bg-primary);
+  border: 1px solid var(--primary-border);
+  border-radius: 10px;
+  padding: 0.738rem 1rem;
+  text-align: center;
+}
+
+.break-box :global(span) {
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.313rem;
+  font-size: 0.875rem;
+  color: var(--color-primary-700);
+}
+
+.right-box-actor :global(span) {
+  font-weight: 400;
+  line-height: 1.125rem;
+  font-size: 0.75rem;
+  color: var(--color-primary-700);
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.right-box-actor :global(p) {
+  font-weight: 500;
+  line-height: 1.125rem;
+  font-size: 0.75rem;
+  color: var(--color-primary-700);
+  margin-bottom: 0rem;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.session-title :global(p) {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: var(--color-primary-700);
+  margin-bottom: 1rem;
+  margin-left: 0rem;
+}
+
+.rounded_outer_img {
+  background-color: var(--bg-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.round_img {
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  object-fit: contain;
+  border: 2px solid var(--border-color);
+  background-color: var(--bg-primary);
+  margin-left: 1rem;
+  margin-right: 0.625rem;
+}
+
+.right-border-bottom {
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 1rem;
+  margin: 0.938rem 1.125rem;
+}
+
+.talent_list :global(.archive_talent) {
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  color: var(--main-theme-color);
+  text-decoration: underline;
+  cursor: pointer;
+  margin: 0;
+}
+
+.Auditions_avail {
+  background-color: #ffd1d1;
+  padding: 0.625rem 1.125rem;
+}
+
+.Auditions_avail :global(p) {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  color: var(--color-primary-700);
+}
+
+.talent_list :global(.archive_talent.border_right) {
+  border-right: 2px solid var(--border-color);
+  padding-right: 1.25rem;
+}
+
+.right-box-list {
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 1rem;
+  margin: 0.938rem 1.125rem;
+}
+
+.right-box-list:last-child {
+  border-bottom: unset;
+}
+
+.right-drag-box {
+  background-color: var(--bg-primary);
+  box-shadow: var(--primary-shadow);
+  border: 1px solid var(--primary-border);
+  border-radius: 10px;
+}
+
+.view-popover-arrow:global(.popover .arrow) {
+  top: -0.15rem !important;
+}
+
+.users_more_popover.view-popover-arrow:global(.popover) {
+  left: 0.23rem !important;
+  top: 0.35rem !important;
+  right: unset !important;
+  box-shadow: 0px 3px 30px #00000014 !important;
+  border: 1px solid #dcdcdc !important;
+}
+
+.users_more_popover.view-popover-arrow:global(.popover .arrow) {
+  top: -0.525rem !important;
+  left: -0.15rem !important;
+}
+
+.left-side-list-box {
+  background-color: var(--bg-primary);
+  box-shadow: var(--primary-shadow);
+  border-radius: 10px;
+  padding: 0.5rem 1.25rem;
+}
+
+.time-slots :global(p) {
+  font-weight: 500;
+  line-height: 1.125rem;
+  font-size: 0.75rem;
+  color: var(--color-primary-700);
+  margin-bottom: 0rem;
+  margin-right: 0.25rem;
+  white-space: nowrap;
+}
+
+.available-slot-event {
+  background-color: #c6eb6e;
+  padding: 0.938rem 1.125rem !important;
+}
+
+.break-slot-event {
+  display: flex;
+  justify-content: center;
+  color: var(--color-secondary);
+  font-weight: 600;
+  line-height: 1.125rem;
+  font-size: 0.75rem;
+  background: var(--bg-break);
+  box-shadow: var(--primary-shadow);
+  border-radius: 10px;
+  padding: 0.785rem 1.125rem !important;
+}
+
+.booking-slots :global(span) {
+  font-weight: 600;
+  line-height: 1.125rem;
+  font-size: 0.75rem;
+  color: var(--color-primary-700);
+  padding-right: 0.985rem;
+}
+
+.slots-style {
+  background-color: var(--bg-secondary-700);
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.slots-style span {
+  color: white;
+}
+
+.users_list :global(p),
+.users_list:global(.users-column-list .cols-width p:first-child),
+.users_list :global(p:first-child) {
+  font-weight: 600;
+  line-height: 1.125rem;
+  font-size: 0.75rem;
+  color: var(--color-primary-700);
+  margin-bottom: 0rem;
+  padding-right: 0.585rem;
+}
+
+.char_max_width {
+  max-width: 33rem;
+}
+
+.users_list :global(span),
+.users_list:global(.users-column-list .cols-width p:nth-child(2)),
+.users_list :global(p:nth-child(2)) {
+  font-weight: 400;
+  line-height: 1.125rem;
+  font-size: 0.75rem;
+  color: var(--color-primary-700);
+  max-width: 10rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-right: 0.25rem;
+  word-break: break-word;
+}
+
+.usersMore_popover.users_list:first-of-type {
+  padding-left: 0rem;
+}
+
+.usersMore_popover .users_list_topbottom_padding {
+  padding-top: 0.538rem;
+  padding-bottom: 0.538rem;
+}
+
+.usersMore_popover.users_list {
+  align-items: unset;
+  border-right: 0px solid var(--border-color);
+  padding-left: 0rem;
+  /* max-width: 20rem;
+  margin-bottom: 0.625rem; */
+}
+
+.usersMore_popover.users_list .close-remove {
+  /* border-right: 1px solid var(--border-color); */
+  padding-right: 1.125rem;
+}
+.close-remove.remove-margin-space{
+  margin-top:0.35rem;
+}
+
+.close-remove.remove_right{
+  margin-top:0.5rem;
+}
+.usersMore_popover.users_list:last-of-type .close-remove {
+  border-right: unset;
+
+}
+
+.users_more_height {
+  max-width: 100%;
+  max-height: 10rem;
+}
+
+.users_list {
+  border-right: 1px solid var(--border-color);
+  padding-left: 1.125rem;
+  padding-right: 1.125rem;
+  display: flex;
+  align-items: center;
+}
+
+.users_list:last-child {
+  border-right: unset;
+}
+
+.right-draggable {
+  background-color: var(--bg-primary);
+  box-shadow: var(--primary-shadow);
+  border: 1px solid var(--primary-border);
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.day-container {
+  display: flex;
+  align-items: center;
+}
+
+.remove-text {
+  font-weight: 400;
+  line-height: 1.25rem;
+  font-size: 0.75rem;
+  color: var(--color-primary);
+}
+
+.add-modal :global(.modal-dialog) {
+  width: 19.35rem;
+  max-width: 100%;
+}
+
+.edit-modal :global(.modal-dialog) {
+  width: 32rem;
+  max-width: 100%;
+}
+
+.remove-modal :global(.modal-dialog) {
+  width: 26rem;
+  max-width: 100%;
+}
+
+.remove-modal:global(.side-modal .modal-content) {
+  border-radius: 10px !important;
+}
+
+.shortlist-modal :global(.modal-dialog) {
+  width: 68rem;
+  max-width: 100%;
+}
+
+.disable-audition:global(.side-form-control:disabled) {
+  background-color: var(--bg-disabled) !important;
+  opacity: 1 !important;
+}
+
+.shortlist-table {
+  max-height: 25rem;
+}
+
+.status-modal :global(.modal-dialog) {
+  width: 18rem;
+  max-width: 100%;
+}
+
+.shortlist-table .action-header {
+  width: 7%;
+  max-width: 100%;
+}
+.shortlist-table .poStatus{
+  width:20%;
+  max-width: 100%;
+}
+.shortlist-table .Talent {
+  width: 24%;
+  max-width: 100%;
+}
+
+.wrap-table-first {
+  text-decoration: underline;
+  font-weight: 400;
+  line-height: 1.25rem;
+  font-size: 0.75rem;
+  color: var(--main-theme-color);
+  cursor: pointer;
+}
+
+.notification-modal :global(.modal-content) {
+  width: 25.9375rem;
+  border-radius: 10px;
+}
+
+.wrap-table {
+  word-break: break-all;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.audition_id {
+  text-decoration: underline;
+  font-weight: 500;
+  line-height: 1.125rem;
+  font-size: 0.75rem;
+  color: var(--main-theme-color);
+}
+
+.empty-placeholder {
+  font-weight: 400;
+  line-height: 1.313rem;
+  font-size: 0.875rem;
+  color: var(--color-primary-700);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 22rem;
+}
+
+.search-control {
+  padding-left: 1.875rem !important;
+}
+
+.search-control:global(.side-form-control.search-control) {
+  background-color: var(--bg-search-control);
+}
+
+.shortlist-table :global(table tr th) {
+  white-space: nowrap;
+}
+
+.doc_box {
+  background-color: var(--bg-primary);
+  border: 1px solid var(--border-color-gray);
+  min-width: 7.8rem;
+  max-width: 12.8rem;
+  border-radius: 5px;
+  padding: 0.5rem 0.938rem;
+  margin-right: 0.5rem;
+  margin-bottom: 1.125rem;
+}
+
+.pdf-file {
+  margin-right: 1rem;
+}
+
+.outer-box {
+  text-align: right;
+  margin-right: 0.625rem;
+  margin-top: -0.7275rem;
+}
+
+.outer-box .remove {
+  margin-bottom: -1.2rem;
+  width: 1rem;
+  cursor: pointer;
+}
+
+.File_Name {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.125rem;
+  color: var(--color-primary-700);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.auditions-edits :global(p) {
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  color: var(--color-primary-700);
+  margin-bottom: 1rem;
+}
+
+.auditions-edits :global(span) {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  color: var(--color-primary-700);
+}
+
+.view-auditions-table :global(table tr td:nth-child(4)) {
+  text-overflow: unset;
+  overflow: unset;
+  white-space: unset;
+}
+
+.right-drag-box {
+  background-color: var(--bg-primary);
+  box-shadow: var(--primary-shadow);
+  border: 1px solid var(--primary-border);
+  border-radius: 10px;
+}
+
+.validation-format {
+  font-size: 0.625rem;
+  font-weight: 400;
+  line-height: 1rem;
+  color: var(--color-validation);
+}
+
+.abt-char :global(p) {
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  color: var(--color-primary-700);
+  margin-bottom: 0.75rem;
+}
+
+.abt-char :global(span) {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  color: var(--color-primary-700);
+  white-space: normal;
+  word-break: break-all;
+  word-wrap: break-word;
+  text-align: justify;
+}
+
+.abt-char {
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.125rem;
+  color: var(--color-primary-700);
+  margin-bottom: 0rem;
+  text-align: justify;
+}
+
+.space-right {
+  padding-left: 1.125rem;
+  padding-right: 1.125rem;
+  display: flex;
+  flex-direction: column;
+}
+.space-right :global(.max-width_accents){
+max-width:18.5rem;
+min-width: 10rem;
+}
+.space-right :global(p) {
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  color: var(--color-primary-700);
+  white-space: nowrap;
+  margin-bottom: 0rem;
+  margin-right: 1.125rem;
+}
+
+.break_slots_remove.break-slot-event {
+  justify-content: unset;
+  display: block;
+  width: 100%;
+}
+
+.textarea-labels:global(.side-form-group > label),
+.textarea-labels:global(.side-form-group-label) {
+  margin-bottom: 0.525rem !important;
+}
+
+.add-notes-modal :global(.modal-dialog) {
+  width: 55rem;
+  max-width: 100%;
+}
+
+.space-right :global(span) {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  color: var(--color-primary-700);
+  word-wrap: break-word;
+}
+
+.box-text {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  color: var(--color-primary-700);
+  white-space: nowrap;
+  align-items: center;
+  align-self: center;
+}
+
+.box-tags {
+  background-color: var(--bg-primary-700);
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-right: 0.5rem;
+  margin-bottom: 1.125rem;
+  width: fit-content;
+}
+
+.schedule-audition-modal :global(.modal-dialog) {
+  width: 85rem;
+  max-width: 100%;
+}
+
+.studio-select,
+.date-select {
+  width: 12rem;
+}
+
+.start-end-select {
+  width: 10rem;
+}
+
+.duration-select {
+  width: 13.875rem;
+}
+
+.form-labels :global(.side-form-group > label),
+.form-labels :global(.side-form-group-label) {
+  margin-bottom: 0.625rem;
+}
+
+.form-labels :global(.side-form-group) {
+  margin-bottom: 1.25rem;
+}
+
+.time-icon {
+  position: absolute;
+  top: 0.625rem;
+  right: 0.625rem;
+  width: 0.938rem;
+}
+
+.s-e-control:global(.side-form-control) {
+  padding-right: 1.875rem !important;
+}
+
+.scheduler-room-box :global(.scheduler) {
+  margin: 0px;
+  width: 100% !important;
+}
+
+.scheduler-room-box :global(.scheduler table tr th) {
+  margin: unset;
+  width: 100% !important;
+}
+
+.scheduler-room-box :global(#RBS-Scheduler-root) {
+  margin: unset !important;
+  width: 100% !important;
+}
+
+.remove-popup:global(.list-modal-popover.popover) {
+  top: -0.125rem !important;
+}
+
+.remove-popup:global(.list-modal-popover.popover .arrow) {
+  top: -0.125rem !important;
+}
+
+.col-height {
+  height: 5.2rem;
+}
+
+.col-text-height {
+  height: 9rem;
+}
+
+.hover-color :global(.react-dropdown-select.side-form-control:hover) {
+  box-shadow: none !important;
+  border: 1px solid var(--primary-border) !important;
+}
+.cast-select{
+    width: 3.05rem;
+}
+.hover-color :global(.react-dropdown-select.side-form-control:focus) {
+  box-shadow: 0 0 0 0.1rem #9ee008 !important;
+}
+.cast-select :global(.react-dropdown-select-dropdown) {
+  width: 6.25rem;
+  right: 0%;
+  left: auto;
+  box-shadow: 0px 5px 15px #0000001a;
+  border: 1px solid var(--border-color-primary);
+}
+
+.cast-select :global(.react-dropdown-select.side-form-control),
+.cast-select :global(.react-dropdown-select.side-form-control:focus) {
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 5px !important;
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 5px !important;
+  border-left: 0px solid transparent;
+  /* box-shadow: unset !important; */
+}
+
+.cast-select :global(.react-dropdown-select.side-form-control:focus) {
+  border: 1px solid var(--border-color-primary) !important;
+}
+
+.cast-select :global(.react-dropdown-select-dropdown-handle svg.up_arrow) {
+  width: 0.7rem !important;
+}
+
+.cast-select :global(.react-dropdown-select-dropdown-handle svg.down_arrow) {
+  width: 0.7rem !important;
+}
+
+.cast-select :global(.react-dropdown-select-dropdown-handle.css-flkni1-DropdownHandleComponent) {
+  margin-left: 0px;
+}
+
+.cast-select :global(.react-dropdown-select-dropdown-handle.css-ouj7ce-DropdownHandleComponent) {
+  margin-left: 0px;
+}
+
+.cast-select :global(.react-dropdown-select-input) {
+  width: 0rem;
+}
+
+.cast-select :global(.react-dropdown-select .react-dropdown-select-content span) {
+  display: none;
+}
+
+.w_8 {
+  width: 5%;
+}
+
+.w_92 {
+  width: 95%;
+}
+
+.w_50 {
+  width: 50%;
+}
+
+.w_100 {
+  width: 100%;
+}
+
+.left-side-list-box.slot_padding {
+  padding: 0rem;
+}
+
+.users_list :global(.cols__width) {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  min-width: 4rem;
+  max-width: 10rem;
+}
+.users_list :global(.cols__width.auditions-view-cal-width) {
+  min-width:5rem;
+  max-width: 12rem;
+}
+.dragDots_image {
+  width: 8px;
+  height: 15px;
+  margin-top: 5px;
+}
+
+.w_50:global(.border_right_session_user:first-of-type) {
+  border-radius: 10px 0px 0px 10px;
+}
+
+.more_popover-h {
+  height: 3.695rem;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.w_100:global(.border_right_session_user) {
+  border-radius: 10px 0px 0px 10px;
+}
+.upload-doc-scroll {
+  max-height: 9.5rem;
+}
+.cast-btn-notes:global(.btn-primary) {
+  background-color: var(--bg-primary) !important;
+  color: var(--color-primary-700) !important;
+  border: 1px solid var(--border-color-primary) !important;
+  border-top-left-radius: 5px !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-left-radius: 5px !important;
+  border-bottom-right-radius: 0px !important;
+  height: 36px;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+.break-box {
+  top: 8.985rem !important;
+  width: calc(100vw - 44.5rem) !important;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+  .count-width {
+    width: 5rem !important;
+  }
+  .notes-auditions-table :global(.react-bootstrap-table th[data-row-selection]),
+  .notes-auditions-table :global(.react-bootstrap-table  tr th:nth-child(1)),
+  .notes-auditions-table :global(.react-bootstrap-table tr td:nth-child(1)){
+    width:40px !important
+  }
+  .notes-auditions-table :global(.react-bootstrap-table  tr th:nth-child(7)),
+  .notes-auditions-table :global(.react-bootstrap-table tr td:nth-child(7)){
+    width:6.5% !important;
+  }
+  .users_list,
+  .usersMore_popover :global(.users-event-list) {
+    padding-left: 0.325rem;
+    padding-right: 0.325rem;
+  }
+  .users_list :global(.cols__width) {
+    min-width:3rem;
+    max-width: 3.25rem;
+  }
+  .users_list :global(.cols__width.auditions-view-cal-width) {
+    min-width:5rem;
+    max-width: 10rem;
+  }
+.users_list :global(p),
+.users_list:global(.users-column-list .cols-width p:first-child),
+.users_list :global(p:first-child){
+  padding-right: 0.125rem;
+}
+.users_list :global(span),
+.users_list:global(.users-column-list .cols-width p:nth-child(2)),
+.users_list :global(p:nth-child(2)){
+  margin-right:0rem;
+}
+  .time-slots :global(p){
+    white-space: normal;
+    font-size: 0.65rem;
+  }
+  .view-auditions-table .action-header {
+    width: 4.5%;
+    max-width: 100%;
+  }
+  .view-auditions-table .shortlist-header {
+    width: 13.5%;
+    max-width: 100%;
+  }
+  
+  .user_more_popover:global(.popover) {
+    right: 66% !important;
+    left: auto !important;
+    min-width: 58%;
+    max-width: 61%;
+  }
+  .users_more_height :global(.two-events .users-event-list),
+  .users_more_height :global(.three-events .users-event-list){
+    max-width:4.5rem;
+    min-width: 4.25rem;
+   }
+   .users_more_height :global(.three-events:nth-child(3) .users-event-list){
+    max-width:8rem;
+   }
+   .break-box {
+    top: 8.25rem !important;
+    width: calc(100vw - 52rem) !important;
+    }
+    .gap-spaces {
+      padding-left: 1.65rem;
+      padding-right: 1.65rem;
+    }
+  }
+@media screen and (min-width: 1024px) and (max-width: 1800px) {
+  .time-slots :global(p) {
+    font-size: 0.65rem;
+  }
+
+  .view-auditions-table .action-header {
+    width: 4.5%;
+    max-width: 100%;
+  }
+
+  .view-auditions-table .shortlist-header {
+    width: 10.5%;
+    max-width: 100%;
+  }
+
+  .user_more_popover:global(.popover .arrow) {
+    left: 0% !important;
+  }
+
+  .users_list :global(span) {
+    max-width: 5.5rem;
+  }
+
+  .left-side-list-box {
+    padding: 0.5rem 0.45rem;
+  }
+
+  .break_slots_remove.break-slot-event {
+    padding-right: 0.45rem !important;
+  }
+
+  .users_list {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .w_8 {
+    width: 7.5%;
+  }
+
+  .w_92 {
+    width: 92.5%;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1260px) {
+  .schedule-audition-modal:global(.side-modal .modal-content) {
+    max-height: calc(100vh - 4rem);
+  }
+  .gap-spaces {
+    padding-left: 1.65rem;
+    padding-right: 1.65rem;
+  }
+  }
+@media screen and (min-width: 1024px) and (max-width: 1080px) {
+  .break-box {
+    top: 7.985rem !important;
+    width: calc(100vw - 56.65rem) !important;
+  }
+  .empty-placeholder {
+    top: 11rem;
+  }
+  .equipment-col:global(.col-md-3_2) {
+    flex: 0 0 33%;
+    max-width: 33%;
+  }
+  .equipment-col :global(input.side-form-control) {
+    width:5.5rem;
+  }
+  .equipment-col :global(.text-danger.input-error-msg){
+    margin-top:0.25rem;
+  }
+  .count-width {
+    width: 5.5rem !important;
+  }
+
+  .Equipment-select {
+    width: 9rem;
+  }
+
+  .view-auditions-table .Scripts {
+    width: 22%;
+  }
+
+  .view-auditions-table :global(table tr td:nth-child(4)) {
+    padding: 0.75rem;
+  }
+
+  .left-side-list-box {
+    padding: 0.5rem 0.45rem;
+  }
+
+  .users_list :global(span) {
+    max-width: 4rem;
+  }
+
+  .users_list,
+  .usersMore_popover :global(.users-event-list) {
+    padding-left: 0.325rem;
+    padding-right: 0.325rem;
+  }
+
+  .user_more_popover:global(.popover) {
+    right: 64% !important;
+    left: auto !important;
+    min-width: 61%;
+    max-width: 61%;
+  }
+
+  .user_availability:global(.popover) {
+    width: 19.25rem;
+  }
+
+  .schedule-audition-modal :global(.modal-dialog) {
+    width: 69rem;
+  }
+  .time-slots :global(p) {
+    white-space: normal;
+  }
+  .users_list :global(.cols__width) {
+    min-width:3.5rem;
+    max-width: 4.55rem;
+  }
+.users_list :global(p),
+.users_list:global(.users-column-list .cols-width p:first-child),
+.users_list :global(p:first-child){
+  padding-right: 0.125rem;
+}
+.users_list :global(span),
+.users_list:global(.users-column-list .cols-width p:nth-child(2)),
+.users_list :global(p:nth-child(2)){
+  margin-right:0rem;
+}
+  .users_more_height :global(.two-events .users-event-list),
+  .users_more_height :global(.three-events .users-event-list){
+    max-width:5.5rem;
+   }
+   .users_more_height :global(.three-events:nth-child(3) .users-event-list){
+    max-width:8rem;
+   }
+   .time-icon {
+    top: 0.85rem;
+  }
+}
+@media screen and (min-width: 1081px) and (max-width: 1110px) {
+  .break-box {
+    top: 7.985rem !important;
+    width: calc(100vw - 60.5rem) !important;
+  }
+  .empty-placeholder {
+    top: 11rem;
+  }
+  .equipment-col:global(.col-md-3_2) {
+    flex: 0 0 33%;
+    max-width: 33%;
+  }
+  .equipment-col :global(input.side-form-control) {
+    width:5.5rem;
+  }
+  .equipment-col :global(.text-danger.input-error-msg){
+    margin-top:0.25rem;
+  }
+  .count-width {
+    width: 5.5rem !important;
+  }
+
+  .Equipment-select {
+    width: 9rem;
+  }
+
+  .view-auditions-table .Scripts {
+    width: 22%;
+  }
+
+  .view-auditions-table :global(table tr td:nth-child(4)) {
+    padding: 0.75rem;
+  }
+
+  .left-side-list-box {
+    padding: 0.5rem 0.45rem;
+  }
+
+  .users_list :global(span) {
+    max-width: 4rem;
+  }
+
+  .users_list,
+  .usersMore_popover :global(.users-event-list) {
+    padding-left: 0.325rem;
+    padding-right: 0.325rem;
+  }
+
+  .user_more_popover:global(.popover) {
+    right: 64% !important;
+    left: auto !important;
+    min-width: 61%;
+    max-width: 61%;
+  }
+
+  .user_availability:global(.popover) {
+    width: 19.25rem;
+  }
+
+  .schedule-audition-modal :global(.modal-dialog) {
+    width: 69rem;
+  }
+  .time-slots :global(p) {
+    white-space: normal;
+  }
+  .users_list :global(.cols__width) {
+    min-width:3.5rem;
+    max-width: 4.55rem;
+  }
+.users_list :global(p),
+.users_list:global(.users-column-list .cols-width p:first-child),
+.users_list :global(p:first-child){
+  padding-right: 0.125rem;
+}
+.users_list :global(span),
+.users_list:global(.users-column-list .cols-width p:nth-child(2)),
+.users_list :global(p:nth-child(2)){
+  margin-right:0rem;
+}
+  .users_more_height :global(.two-events .users-event-list),
+  .users_more_height :global(.three-events .users-event-list){
+    max-width:5.5rem;
+   }
+   .users_more_height :global(.three-events:nth-child(3) .users-event-list){
+    max-width:8rem;
+   }
+   .time-icon {
+    top: 0.85rem;
+  }
+}
+@media screen and (min-width: 1111px) and (max-width: 1260px) {
+  .break-box {
+    top: 7.985rem !important;
+    width: calc(100vw - 64.5rem) !important;
+  }
+  .empty-placeholder {
+    top: 11rem;
+  }
+  .equipment-col:global(.col-md-3_2) {
+    flex: 0 0 33%;
+    max-width: 33%;
+  }
+  .equipment-col :global(input.side-form-control) {
+    width:5.5rem;
+  }
+  .equipment-col :global(.text-danger.input-error-msg){
+    margin-top:0.25rem;
+  }
+  .count-width {
+    width: 5.5rem !important;
+  }
+
+  .Equipment-select {
+    width: 9rem;
+  }
+
+  .view-auditions-table .Scripts {
+    width: 22%;
+  }
+
+  .view-auditions-table :global(table tr td:nth-child(4)) {
+    padding: 0.75rem;
+  }
+
+  .left-side-list-box {
+    padding: 0.5rem 0.45rem;
+  }
+
+  .users_list :global(span) {
+    max-width: 4rem;
+  }
+
+  .users_list,
+  .usersMore_popover :global(.users-event-list) {
+    padding-left: 0.325rem;
+    padding-right: 0.325rem;
+  }
+
+  .user_more_popover:global(.popover) {
+    right: 64% !important;
+    left: auto !important;
+    min-width: 61%;
+    max-width: 61%;
+  }
+
+  .user_availability:global(.popover) {
+    width: 19.25rem;
+  }
+
+  .schedule-audition-modal :global(.modal-dialog) {
+    width: 69rem;
+  }
+  .time-slots :global(p) {
+    white-space: normal;
+  }
+  .users_list :global(.cols__width) {
+    min-width:3.5rem;
+    max-width: 4.55rem;
+  }
+.users_list :global(p),
+.users_list:global(.users-column-list .cols-width p:first-child),
+.users_list :global(p:first-child){
+  padding-right: 0.125rem;
+}
+.users_list :global(span),
+.users_list:global(.users-column-list .cols-width p:nth-child(2)),
+.users_list :global(p:nth-child(2)){
+  margin-right:0rem;
+}
+  .users_more_height :global(.two-events .users-event-list),
+  .users_more_height :global(.three-events .users-event-list){
+    max-width:5.5rem;
+   }
+   .users_more_height :global(.three-events:nth-child(3) .users-event-list){
+    max-width:8rem;
+   }
+   .time-icon {
+    top: 0.85rem;
+  }
+}
+
+@media screen and (min-width: 1261px) and (max-width: 1360px) {
+  .break-box {
+    top: 7.985rem !important;
+    width: calc(100vw - 70.25rem) !important;
+  }
+
+  .empty-placeholder {
+    top: 14rem;
+  }
+  .users_list,
+  .usersMore_popover :global(.users-event-list) {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .users_list :global(p),
+  .users_list:global(.users-column-list .cols-width p:first-child),
+  .users_list :global(p:first-child){
+    padding-right: 0.125rem;
+  }
+  .users_list :global(span),
+  .users_list:global(.users-column-list .cols-width p:nth-child(2)),
+  .users_list :global(p:nth-child(2)){
+    margin-right:0rem;
+  }
+  .equipment-col:global(.col-md-3_2) {
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+
+  .Equipment-select {
+    width: 11rem;
+  }
+
+  .left-side-list-box {
+    padding: 0.5rem 0.45rem;
+  }
+
+  .user_more_popover:global(.popover) {
+    right: 58.25rem !important;
+    min-width: 61.685%;
+    max-width: 61.685%;
+  }
+
+  .user_availability:global(.popover) {
+    width: 19.5rem;
+  }
+
+  .schedule-audition-modal :global(.modal-dialog) {
+    width: 79rem;
+  }
+
+  .users_list :global(.cols__width) {
+    max-width: 5rem;
+  }
+  .users_more_height :global(.two-events .users-event-list),
+  .users_more_height :global(.three-events .users-event-list){
+    max-width:5.65rem;
+   }
+   .users_more_height :global(.three-events:nth-child(3) .users-event-list){
+    max-width:8rem;
+   }
+   .time-icon {
+    top: 0.85rem;
+  }
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1390px) {
+  .break-box {
+    top: 7.985rem !important;
+    width: calc(100vw - 75rem) !important;
+  }
+
+  .empty-placeholder {
+    top: 15rem;
+  }
+
+  .equipment-col:global(.col-md-3_2) {
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+  .Equipment-select {
+    width: 12rem;
+  }
+
+  .left-side-list-box {
+    padding: 0.5rem 0.45rem;
+  }
+
+  .user_more_popover:global(.popover) {
+    right: 63.875% !important;
+    min-width: 62%;
+    max-width: 62%;
+  }
+
+  .user_availability:global(.popover) {
+    width: 20rem;
+  }
+
+  .users_list :global(.cols__width) {
+    max-width: 5rem;
+  }
+  .users_more_height :global(.two-events .users-event-list),
+  .users_more_height :global(.three-events .users-event-list){
+    max-width:9rem;
+  }
+  .time-icon {
+    top: 0.785rem;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1430px) {
+  .break-box {
+    top: 7.985rem !important;
+    width: calc(100vw - 77rem) !important;
+  }
+
+  .empty-placeholder {
+    top: 24.4rem;
+  }
+
+  .equipment-col:global(.col-md-3_2) {
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+
+  .Equipment-select {
+    width: 12.25rem;
+  }
+
+  .user_more_popover:global(.popover) {
+    right: 62.5rem !important;
+    min-width: 62.5%;
+    max-width: 62.5%;
+  }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1500px) {
+  .break-box {
+    top: 7.798rem !important;
+    width: calc(100vw - 69rem) !important;
+  }
+
+  .empty-placeholder {
+    top: 16.4rem;
+  }
+
+  .equipment-col:global(.col-md-3_2) {
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+
+  .Equipment-select {
+    width: 11.55rem;
+  }
+
+  .user_more_popover:global(.popover) {
+    right: 56.5rem !important;
+    min-width: 61.5%;
+    max-width: 61.5%;
+  }
+}
+
+@media screen and (min-width: 1510px) and (max-width: 1580px) {
+  .break-box {
+    top: 7.798rem !important;
+    width: calc(100vw - 73.5rem) !important;
+  }
+
+  .empty-placeholder {
+    top: 16rem;
+  }
+
+  .equipment-col:global(.col-md-3_2) {
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+
+  .Equipment-select {
+    width: 12rem;
+  }
+
+  .user_more_popover:global(.popover) {
+    right: 60rem !important;
+    min-width: 62.5%;
+    max-width: 62.5%;
+  }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1660px) {
+  .break-box {
+    top: 7.698rem !important;
+    width: calc(100vw - 77rem) !important;
+  }
+
+  .empty-placeholder {
+    top: 16rem;
+  }
+
+  .equipment-col:global(.col-md-3_2) {
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+
+  .Equipment-select {
+    width: 12rem;
+  }
+
+  .user_more_popover:global(.popover) {
+    right: 63.5rem !important;
+    min-width: 61.5%;
+    max-width: 61.5%;
+  }
+}
+
+@media screen and (min-width: 1680px) and (max-width: 1700px) {
+  .break-box {
+    top: 7.655rem !important;
+    width: calc(100vw - 72.5rem) !important;
+  }
+
+  .empty-placeholder {
+    top: 17rem;
+  }
+
+  .equipment-col:global(.col-md-3_2) {
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+
+  .Equipment-select {
+    width: 12rem;
+  }
+
+  .user_more_popover:global(.popover) {
+    right: 58.5rem !important;
+    left: auto !important;
+    min-width: 61%;
+    min-width: 61.5%;
+    max-width: 61.5%;
+  }
+}
+
+@media screen and (min-width: 1710px) and (max-width: 1800px) {
+  .break-box {
+    top: 7.655rem !important;
+    width: calc(100vw - 74.5rem) !important;
+  }
+
+  .empty-placeholder {
+    top: 15rem;
+  }
+
+  .equipment-col:global(.col-md-3_2) {
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+
+  .Equipment-select {
+    width: 12rem;
+  }
+
+  .user_more_popover:global(.popover) {
+    right: 60.5rem !important;
+    left: auto !important;
+    min-width: 62.5%;
+    max-width: 62.5%;
+  }
+}
+
+@media screen and (min-width: 1930px) and (max-width: 3200px) {
+  .view-auditions-table .action-header {
+    width: 5%;
+    max-width: 100%;
+  }
+
+  .view-auditions-table .shortlist-header {
+    width: 11.95%;
+    max-width: 100%;
+  }
+
+  .break-box {
+    width: calc(100vw - 82rem) !important;
+  }
+
+  .user_more_popover:global(.popover) {
+    left: auto !important;
+    min-width: 62.5%;
+    max-width: 62.5%;
+    right: 60rem !important;
+  }
+}
+@media screen and (min-width: 1400px) and (max-width: 1590px) {
+  .users_list :global(.cols__width) {
+    max-width: 7rem;
+  }
+}
+
+@media screen and (min-width: 1591px) and (max-width: 1800px) {
+  .users_list :global(.cols__width) {
+    max-width: 9rem;
+  }
+}
