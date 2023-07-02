@@ -1,0 +1,129 @@
+.search-control {
+  padding-left: 1.975rem !important;
+}
+.currency-table :global(table tr th:last-child),
+.currency-table :global(table tr td:last-child){
+width:10.125rem;
+max-width: 100%;  
+overflow: visible;
+white-space: nowrap;
+text-overflow:unset;
+}
+.Exchange-Rate-modal :global(.modal-dialog .modal-content){
+  height:calc(100vh - 15rem);
+  max-height: unset;
+}
+
+.Exchange-Rate-modal :global(.modal-dialog){
+  width:35vw;
+  max-width: 100%;  
+}
+.exchange-Rate-table :global(table tr th:nth-child(3)){
+  width:22%;
+  max-width: 100%;
+}
+.exchange-Rate-table :global(table tr th:nth-child(2)){
+  width:33%;
+  max-width: 100%;
+  }
+.exchange-Rate-table :global(table tr th),
+.currency-table :global(table tr th){
+    white-space: nowrap;
+}
+.exchange-datePicker :global(.react-datepicker__month .react-datepicker__month-text:focus),
+.exchange-datePicker :global(.react-datepicker__month .react-datepicker__quarter-text:focus){
+  outline: 2px solid #91cf0085;
+  outline-offset: -2px;
+}
+.exchange-datePicker :global(.react-datepicker__month .react-datepicker__month-text),
+.exchange-datePicker :global(.react-datepicker__month .react-datepicker__quarter-text) {
+  display: inline-block;
+  width: 3rem;
+  margin: 2px;
+  font-size: 0.75rem;
+  color:var(--color-primary-700);
+}
+.exchange-datePicker :global(.react-datepicker__month--selected.react-datepicker__month-text--keyboard-selected),
+.exchange-datePicker :global(.react-datepicker__month--selected.react-datepicker__month-text--keyboard-selected:hover){
+  color:var(--color-secondary);
+}
+.exchange-datePicker :global(.react-datepicker__month) {
+  margin: 0.2rem;
+} 
+.exchange-datePicker{
+  width:10.285rem;
+}
+.exchange-datePicker :global(.react-datepicker-popper .react-datepicker){
+  border:1px solid var(--border-color);
+}
+
+.exchange-datePicker :global(.react-datepicker__month-text.react-datepicker__month--in-range:hover),
+.exchange-datePicker :global(.react-datepicker__month-text.react-datepicker__quarter--selected:hover),
+.exchange-datePicker :global(.react-datepicker__month-text.react-datepicker__quarter--in-range:hover),
+.exchange-datePicker :global(.react-datepicker__quarter-text.react-datepicker__month--in-range:hover), 
+.exchange-datePicker :global(.react-datepicker__quarter-text.react-datepicker__quarter--selected:hover), 
+.exchange-datePicker :global(.react-datepicker__quarter-text.react-datepicker__quarter--in-range:hover){
+  border-radius: 0.3rem;
+  background-color: var(--bg-disabled);
+}
+.exchange-datePicker :global(.react-datepicker__month--selected), 
+.exchange-datePicker :global(.react-datepicker__month--in-selecting-range), 
+.exchange-datePicker :global(.react-datepicker__month--in-range), 
+.exchange-datePicker :global(.react-datepicker__quarter--selected),
+.exchange-datePicker :global(.react-datepicker__quarter--in-selecting-range),
+.exchange-datePicker :global(.react-datepicker__quarter--in-range),
+.exchange-datePicker :global(.react-datepicker__month-text.react-datepicker__month--selected:hover),
+.exchange-datePicker :global(.react-datepicker__quarter-text.react-datepicker__month--selected:hover){
+  background-color: var(--bg-green);
+}
+.currency-select :global(._ERP-COMPONENTS_customSelect_container ._ERP-COMPONENTS_Select_button){
+  width:10rem;
+}
+.exchange-Rate-table :global(.react-bootstrap-table){
+max-height:calc(100vh - 30rem);
+}
+.exchange-datePicker :global(.react-datepicker__tab-loop .react-datepicker .react-datepicker__navigation .react-datepicker__navigation-icon::before){
+  content: unset;
+}
+.exchange-datePicker :global(.react-datepicker .react-datepicker__navigation--previous),
+.exchange-datePicker :global(.react-datepicker .react-datepicker__navigation--next){
+  width:1.5rem;
+  height:1.5rem;
+}
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+  .Exchange-Rate-modal :global(.modal-dialog){
+    width:55vw;
+  }
+  .exchange-Rate-table :global(.react-bootstrap-table){
+    max-height:calc(100vh - 20rem);
+  }
+.export-modal :global(.modal-dialog){
+  width:60%;
+  max-width: 100%;
+}
+.exchange-datePicker{
+  width:11.25rem;
+}
+.currency-select :global(._ERP-COMPONENTS_customSelect_container ._ERP-COMPONENTS_Select_button){
+  width:11.5rem;
+}
+}
+@media screen and (min-width: 1024px) and (max-width: 1800px) {
+.Exchange-Rate-modal :global(.modal-dialog){
+  width:45vw;
+}
+.exchange-Rate-table :global(.react-bootstrap-table){
+  max-height:calc(100vh - 25rem);
+}
+.exchange-datePicker{
+  width:11.25rem;
+}
+.currency-select :global(._ERP-COMPONENTS_customSelect_container ._ERP-COMPONENTS_Select_button){
+  width:11.5rem;
+}
+}
+@media screen and (min-width: 1024px) and (max-width: 1380px) {
+.exchange-Rate-table :global(table tr th:nth-child(2)){
+  width:35%;
+  }
+}

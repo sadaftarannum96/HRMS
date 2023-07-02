@@ -1,0 +1,12 @@
+POST  {{base_url}}/base/login/
+
+{
+"userName": "girirajsingh",
+"password": "P@ssw0rd"
+}
+
+##eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyTmFtZSI6ImdpcmlyYWpzaW5naCIsImV4cCI6MTU5ODg1MTc1OH0.DABRqxDGIo8y0qeCFvwY09E1gd7GNmzr0Dv90zJuuxM
+
+
+###
+GET  https://awldevservices.ptw.com/openapi.json

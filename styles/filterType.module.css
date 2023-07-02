@@ -1,0 +1,27 @@
+.apply-btn {
+    padding-bottom: 10px;
+    border: 1px solid #caccd8;
+    font-size: 0.75rem;
+    background-color: var(--bg-secondary);
+    border: 1px solid #caccd8;
+    border-radius: 5px !important;
+    font-weight: 400 !important;
+    color: var(--color-secondary) !important;
+    text-align: center;
+  }
+  .clearbtn {
+    background-color: var(--bg-primary) !important;
+    border: 1px solid #d6d4e2 !important;
+    font-weight: 400 !important;
+    border-radius: 5px !important;
+    color: #292828 !important;
+    font-size: 0.75rem;
+    margin-left: 10px;
+  }
+  .select-type-info {
+    margin-bottom: 2px;
+    border: 1px solid #00000029;
+  }
+  .select-button {
+    margin-top: 25px;
+  }

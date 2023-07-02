@@ -1,0 +1,64 @@
+.Equipment-table .action-header,
+.Equipment-table :global(table tr td:last-child) {
+  width: 7%;
+}
+.Equipment-table :global(table tr th) {
+  white-space: nowrap;
+}
+.Equipment-table .studio {
+  width: fit-content;
+  max-width: 100%;
+}
+.main_header {
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  color: var(--color-primary-700);
+}
+.studio-scroll :global(.added-equipments:nth-child(1) .side-form-group){
+  margin-top:0.25rem;
+}
+.equipment-modal :global(.modal-dialog) {
+  width:29.8rem;
+  max-width: 100%;
+}
+.count-input {
+  width: 7rem;
+}
+.count-input-error {
+  width: 9rem;
+}
+.equipment-input {
+  width: 11.2rem;
+}
+.studio-select {
+  width: 18.5rem;
+}
+.studio-scroll {
+  max-height: 15rem;
+  overflow-x: hidden;
+}
+.search-control {
+  padding-left: 1.875rem !important;
+}
+.studio-scroll {
+  max-height: 20rem;
+  overflow-x: hidden;
+}
+.equip-modal-row-validation {
+  height: 5.5rem;
+}
+.equipment-height{
+  max-height: 19rem;
+  min-height: 11rem;
+}
+@media only screen and (min-width: 320px) and (max-width: 1023px) {
+  .equipment-height .studio-scroll{
+    max-height: 10rem;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1260px) {
+  .equipment-height .studio-scroll{
+    max-height: 10.5rem;
+  }
+}

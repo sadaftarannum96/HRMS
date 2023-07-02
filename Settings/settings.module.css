@@ -1,0 +1,94 @@
+@media screen and (min-width: 576px) and (max-width: 1023px) {
+
+    .tiersetup-filter :global(._ERP-COMPONENTS_Custom_Filter ._ERP-COMPONENTS_Custom_Filter_Tab_Containts ._ERP-COMPONENTS_RC-filter ._ERP-COMPONENTS_checkbox.erp_filter_custom_scroll_thin),
+    .quotesetup-filter :global(._ERP-COMPONENTS_Custom_Filter ._ERP-COMPONENTS_Custom_Filter_Tab_Containts ._ERP-COMPONENTS_RC-filter ._ERP-COMPONENTS_checkbox.erp_filter_custom_scroll_thin) {
+        height: 90px;
+    }
+
+    .tiersetup-filter :global(._ERP-COMPONENTS_FILTER__toggle + div) {
+        bottom: auto !important;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1260px) {
+    .tiersetup-filter :global(._ERP-COMPONENTS_Custom_Filter ._ERP-COMPONENTS_Custom_Filter_Tab_Containts ._ERP-COMPONENTS_RC-filter ._ERP-COMPONENTS_checkbox.erp_filter_custom_scroll_thin) {
+        height: 90px;
+    }
+
+    .tiersetup-filter :global(._ERP-COMPONENTS_FILTER__toggle + div) {
+        top: 2.5% !important;
+        bottom: auto !important;
+    }
+
+    .quotesetup-filter :global(._ERP-COMPONENTS_Custom_Filter ._ERP-COMPONENTS_Custom_Filter_Tab_Containts ._ERP-COMPONENTS_RC-filter ._ERP-COMPONENTS_checkbox.erp_filter_custom_scroll_thin) {
+        height: 110px;
+    }
+
+    .quotesetup-filter :global(._ERP-COMPONENTS_FILTER__toggle + div) {
+        top: 13.5% !important;
+        bottom: auto !important;
+    }
+}
+
+@media screen and (min-width: 1261px) and (max-width: 1360px) {
+
+    .tiersetup-filter :global(._ERP-COMPONENTS_Custom_Filter ._ERP-COMPONENTS_Custom_Filter_Tab_Containts ._ERP-COMPONENTS_RC-filter ._ERP-COMPONENTS_checkbox.erp_filter_custom_scroll_thin),
+    .quotesetup-filter :global(._ERP-COMPONENTS_Custom_Filter ._ERP-COMPONENTS_Custom_Filter_Tab_Containts ._ERP-COMPONENTS_RC-filter ._ERP-COMPONENTS_checkbox.erp_filter_custom_scroll_thin) {
+        height: 90px;
+    }
+
+    .quotesetup-filter :global(._ERP-COMPONENTS_FILTER__toggle + div) {
+        top: 15% !important;
+        bottom: auto !important;
+    }
+
+    .tiersetup-filter :global(._ERP-COMPONENTS_FILTER__toggle + div) {
+        top: 3.5% !important;
+        bottom: auto !important;
+    }
+}
+
+@media screen and (min-width: 1361px) and (max-width: 1400px) {
+
+    .tiersetup-filter :global(._ERP-COMPONENTS_Custom_Filter ._ERP-COMPONENTS_Custom_Filter_Tab_Containts ._ERP-COMPONENTS_RC-filter ._ERP-COMPONENTS_checkbox.erp_filter_custom_scroll_thin),
+    .quotesetup-filter :global(._ERP-COMPONENTS_Custom_Filter ._ERP-COMPONENTS_Custom_Filter_Tab_Containts ._ERP-COMPONENTS_RC-filter ._ERP-COMPONENTS_checkbox.erp_filter_custom_scroll_thin) {
+        height: 110px;
+    }
+
+    .quotesetup-filter :global(._ERP-COMPONENTS_FILTER__toggle + div) {
+        top: 16% !important;
+        bottom: auto !important;
+    }
+}
+
+@media screen and (min-width: 1401px) and (max-width: 1590px) {
+    .tiersetup-filter :global(._ERP-COMPONENTS_Custom_Filter ._ERP-COMPONENTS_Custom_Filter_Tab_Containts ._ERP-COMPONENTS_RC-filter ._ERP-COMPONENTS_checkbox.erp_filter_custom_scroll_thin) {
+        height: 130px;
+    }
+
+    .quotesetup-filter :global(._ERP-COMPONENTS_Custom_Filter ._ERP-COMPONENTS_Custom_Filter_Tab_Containts ._ERP-COMPONENTS_RC-filter ._ERP-COMPONENTS_checkbox.erp_filter_custom_scroll_thin) {
+        height: 110px;
+    }
+
+    .quotesetup-filter :global(._ERP-COMPONENTS_FILTER__toggle + div) {
+        top: 16.5% !important;
+        bottom: auto !important;
+    }
+}
+
+@media screen and (min-width: 1591px) and (max-width: 1680px) {
+    .quotesetup-filter :global(._ERP-COMPONENTS_Custom_Filter ._ERP-COMPONENTS_Custom_Filter_Tab_Containts ._ERP-COMPONENTS_RC-filter ._ERP-COMPONENTS_checkbox.erp_filter_custom_scroll_thin) {
+        height: 110px;
+    }
+
+    .quotesetup-filter :global(._ERP-COMPONENTS_FILTER__toggle + div) {
+        top: 20% !important;
+        bottom: auto !important;
+    }
+}
+
+@media screen and (min-width: 1681px) and (max-width: 1800px) {
+    .quotesetup-filter :global(._ERP-COMPONENTS_Custom_Filter ._ERP-COMPONENTS_Custom_Filter_Tab_Containts ._ERP-COMPONENTS_RC-filter ._ERP-COMPONENTS_checkbox.erp_filter_custom_scroll_thin) {
+        height: 110px;
+    }
+}

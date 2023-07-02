@@ -1,0 +1,12 @@
+.main-profile-name {
+    color: var(--main-theme-color);
+    margin-bottom: 1rem;
+    font-size: 1.375rem;
+    font-weight: 500;
+}
+.main-profile-descrtn {
+    color: var(--color-primary-700);
+    margin-bottom: 1.5rem;
+    font-size: 1.375rem;
+    font-weight: 300;
+}

@@ -1,0 +1,16 @@
+@Auth=Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyTmFtZSI6ImdpcmlyYWpzaW5naCIsImV4cCI6MTU5ODg1MTc1OH0.DABRqxDGIo8y0qeCFvwY09E1gd7GNmzr0Dv90zJuuxM
+
+###
+
+GET {{base_url}}/lms/reports/categories/
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyTmFtZSI6Im1hbmFnZXIiLCJleHAiOjE1OTEzMzE4MjN9.R7XeqJWxfi8g-xypbFRCAy0BxfQKT_AQFfbO3Xt4c2U
+
+###
+GET {{base_url}}/ums/reports/
+Authorization: {{Auth}}
+
+### create report
+POST {{base_url}}/ums/reports/
+Authorization: {{Auth}}
+
+{"name":"New Report 2","columns":["firstName","lastName","empId","location","gender","softwareAsset","hardwareAsset","officePhone"]}

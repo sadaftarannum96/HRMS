@@ -1,0 +1,130 @@
+.mask-img-part {
+    background-color: var(--bg-green-700) !important;
+    background-image: url(../images/Mask.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  .bi-content {
+    transform: translate(40%, 109%) !important;
+  }
+  .login-section {
+    overflow-x: hidden !important;
+    background-color: var(--bg-light);
+    height: 100%;
+    position: relative;
+    user-select: none;
+  }
+  .login-section :global(.login-title) {
+    text-align: left;
+    font-weight: 500;
+    font-size: 1.875rem;
+    line-height: 46px;
+    color: var(--secondary-text-color);
+  }
+  .login-section :global(.login-p) {
+    font-size: 0.875rem;
+  }
+  .login-section :global(.user-icon) {
+    font-weight: 500;
+    font-size: 0.938rem;
+    line-height: 23px;
+    color: var(--secondary-text-color);
+  }
+  .login-section :global(.user-icon::before) {
+    display: inline-block;
+    content: url(../images/user.svg);
+    padding-right: 10px;
+  }
+  .login-section :global(.mail-icon) {
+    font-weight: 500;
+    font-size: 0.938rem;
+    line-height: 23px;
+    color: var(--secondary-text-color);
+  }
+  .login-section :global(.mail-icon::before) {
+    display: inline-block;
+    content: url(../images/svg/mail.svg);
+    margin-right: 10px;
+    width: 20px;
+    vertical-align: middle;
+    height: 20px;
+  }
+  .login-section :global(.password-icon) {
+    font-weight: 500;
+    font-size: 0.938rem;
+    line-height: 23px;
+    color: var(--secondary-text-color);
+  }
+  
+  .login-section :global(.password-icon::before) {
+    display: inline-block;
+    padding-right: 10px;
+    content: url(../images/tools.svg);
+    vertical-align: middle;
+  }
+  .login-section :global(.rmbr) {
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 21px;
+    font-family: 'Poppins', sans-serif !important;
+    color: var(--secondary-text-color);
+  }
+  .login-section :global(.forgot-pass) {
+    font-weight: 400;
+    font-size: 0.875rem;
+    float: right;
+    font-family: 'Poppins', sans-serif !important;
+    color: var(--secondary-text-color);
+    margin-left: -15px !important;
+  }
+  .login-logo-sizes {
+    width: 30%;
+  }
+  :global(form h3) {
+    color: var(--main-theme-color);
+    text-align: center;
+  }
+  :global(.forgot-password p a) {
+    color: var(--main-theme-color);
+  }
+  .signup {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.125rem;
+    color: var(--main-theme-color) !important;
+  }
+  .account {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.125rem;
+    color: var(--secondary-text-color);
+  }
+  
+@media only screen and (min-width: 1280px) and (max-width: 1360px) {
+    .mask-img-part {
+      background-size: 600px !important;
+      height: 768px !important;
+    }
+  }
+  
+  @media screen and (max-width: 1366px) {
+    .mask-img-part {
+      background-size: 683px !important;
+      height: 768px !important;
+    }
+}
+@media only screen and (min-width: 1440px) and (max-width: 1660px) {
+    .mask-img-part {
+      background-size: 750px !important;
+      height: 100vh !important;
+    }
+  }
+  
+  @media only screen and (min-width: 1680px) and (max-width: 1890px) {
+  
+    .mask-img-part {
+      background-size: 960px !important;
+      height: 100vh !important;
+    }
+  }

@@ -1,0 +1,2 @@
+GET {{base_url}}/base/ncns/ncnsConfirmedPdf/
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyTmFtZSI6Im1hbmFnZXIiLCJleHAiOjE1OTEzMzE4MjN9.R7XeqJWxfi8g-xypbFRCAy0BxfQKT_AQFfbO3Xt4c2U

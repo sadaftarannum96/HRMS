@@ -1,0 +1,137 @@
+.studio-table :global(table tr th) {
+  white-space: nowrap;
+}
+.studio-table .studio {
+  width: 45%;
+  max-width: 100%;
+}
+.studio-popover:global(.popover){
+top:0.215rem !important;
+}
+.add-studio-table :global(table tr th) {
+  white-space: nowrap;
+}
+.add-studio-table .studio {
+  width: 45%;
+  max-width: 100%;
+}
+.add-studio-table :global(table tr th:last-child){
+  width: 12%;
+}
+.add-studio-table :global(table tr td:last-child),
+.studio-table :global(table tr th:nth-child(3)),
+.studio-table :global(table tr td:nth-child(3)){
+  width:4.5rem;
+  text-overflow: unset;
+  overflow: unset;
+  white-space: unset;
+}
+.main_header {
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  color: var(--color-primary-700);
+}
+.add-modal :global(.modal-dialog) {
+  width: 40rem;
+  max-width: 100%;
+}
+.studio-modal :global(.modal-dialog) {
+  width: 39rem;
+  max-width: 100%;
+}
+.currency-select {
+  width: 9.5rem;
+}
+.currency-input {
+  width: 8rem;
+}
+.cost-input-error {
+  width: 8rem;
+}
+.room-input {
+  width: 10rem;
+}
+.studio-scroll {
+  max-height: 20rem;
+  overflow-x: hidden;
+}
+.studio-scroll :global(.added-studios:nth-child(1) .side-form-group){
+  margin-top:0.25rem;
+}
+.delete-text {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  color: var(--color-primary);
+} 
+.studio-modal-row-validation {
+  height: 5.5rem;
+}
+.studio-modal-row-validation-new {
+  height: 5.1rem;
+}
+.label-fonts {
+  font-weight: 500;
+  line-height: 1.25rem;
+  font-size: 0.75rem !important;
+  color: var(--color-primary-700);
+  white-space: nowrap;
+}
+.studio-height:global(.scrollable_height){
+  max-height: 19rem;
+  min-height: 11rem;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+@media only screen and (min-width: 320px) and (max-width: 1023px) {
+  .studio-height .studio-scroll{
+    max-height: 7rem;
+  }
+  .label-fonts {
+    font-size: 0.685rem !important;
+  }
+  .studio-height:global(.scrollable_height){
+    max-height: 7rem;
+    min-height: 6rem;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1260px) {
+  .studio-height .studio-scroll {
+    max-height: 7rem;
+  }
+  .label-fonts {
+    font-size: 0.685rem !important;
+  }
+  .studio-height:global(.scrollable_height){
+    max-height: 7rem;
+    min-height: 6rem;
+  }
+}
+@media only screen and (min-width: 1261px) and (max-width: 1280px) {
+  .label-fonts {
+    font-size: 0.75rem !important;
+  }
+  .studio-height:global(.scrollable_height),
+  .studio-height .studio-scroll{
+    max-height: 14rem;
+  }
+}
+@media only screen and (min-width: 1281px) and (max-width: 1400px) {
+  .label-fonts {
+    font-size: 0.75rem !important;
+  }
+  .studio-height:global(.scrollable_height),
+  .studio-height .studio-scroll{
+    max-height: 16rem;
+  }
+}

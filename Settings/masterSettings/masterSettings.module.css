@@ -1,0 +1,41 @@
+.box_bod {
+  background-color: var(--bg-primary);
+  box-shadow: 0px 5px 20px #0000000f;
+  border: 1px solid var(--primary-border);
+  border-radius: 5px;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.box_header {
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  color: var(--color-primary-700);
+}
+.button_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.placeholder_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  color: var(--color-primary-700);
+}
+.language-modal :global(.modal-body .language-name) {
+  word-break: break-all;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.button_width {
+  width: max-content;
+}

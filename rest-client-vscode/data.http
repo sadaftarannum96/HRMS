@@ -1,0 +1,84 @@
+@auth=Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyTmFtZSI6Ik1haGVzaCIsImV4cCI6MTU5NjE5NTg1OH0.xry83E8jZ2feluh6uu6MBsfYM8RTLsdqdr3ARF9uFPg
+###
+@united_states_country_id=ccb54e4d-0827-42c8-a269-060b0526544a
+###
+@india_country_id=78ebc51e-3d6e-49d1-89d8-978ebef3bcbf
+
+###
+GET {{base_url}}/base/locations/
+Authorization: {{auth}}
+
+###
+GET {{base_url}}/base/branches/
+Authorization: {{auth}}
+###
+GET {{base_url}}/base/departments/
+Authorization: {{auth}}
+###
+GET {{base_url}}/base/gender/
+Authorization: {{auth}}
+
+###
+GET {{base_url}}/base/regions/
+Authorization: {{auth}}
+
+###
+GET {{base_url}}/ums/personalDetails/bloodGroups
+Authorization: {{auth}}
+
+###
+GET {{base_url}}/ums/personalDetails/disabilities
+Authorization: {{auth}}
+
+###
+GET {{base_url}}/ums/personalDetails/maritalStatuses
+Authorization: {{auth}}
+
+###
+GET {{base_url}}/ums/personalDetails/languages
+Authorization: {{auth}}
+
+
+###
+GET {{base_url}}/base/countries/
+Authorization: {{auth}}
+
+###
+GET {{base_url}}/ums/personalDetails/states
+Authorization: {{auth}}
+###
+
+POST  {{base_url}}/ums/personalDetails/state
+Authorization: {{auth}}
+Content-Type: application/json
+
+{
+	"name":"Maine",
+	"countryId":"{{united_states_country_id}}"
+}
+
+###
+POST  {{base_url}}/ums/personalDetails/city
+Authorization: {{auth}}
+Content-Type: application/json
+
+{
+	"name":"Hyderabad",
+	"stateId":"57caf987-0418-4994-b792-6d55337bf0bf"
+}
+
+### languages
+GET {{base_url}}/ums/personalDetails/languages/
+Authorization: {{auth}}
+
+###
+POST {{base_url}}/ums/languages/
+Authorization: {{auth}}
+
+{
+	"name":"Hindi"
+}
+
+### financial details
+GET {{base_url}}/ums/financialDetails/bankCodes
+Authorization: {{auth}}

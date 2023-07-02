@@ -1,0 +1,149 @@
+.quotetype_list_box {
+    background-color: var(--bg-primary);
+    box-shadow: 0px 3px 6px #00000014;
+    border: 1px solid var(--primary-border);
+    border-radius: 5px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 0.5rem;
+    padding-right: 1rem;
+}
+.quotetype_list_box:last-of-type {
+    margin-bottom: 0.25rem;
+}
+.users_list {
+    border-right: 1px solid var(--border-color);
+    padding-left: 1.125rem;
+    padding-right: 1.125rem;
+    display: flex;
+    align-items: center;
+}
+.users_list :global(p) {
+    font-weight: 600;
+    line-height: 1.125rem;
+    font-size: 0.75rem;
+    color: var(--color-primary-700);
+    margin-bottom: 0rem;
+    padding-right: 0.938rem;
+}
+.users_list :global(span) {
+    font-weight: 400;
+    line-height: 1.125rem;
+    font-size: 0.75rem;
+    color: var(--color-primary-700);
+    margin-right: 0.25rem;
+}
+
+.users_list:first-of-type {
+    padding-left: 0rem;
+}
+
+.users_list:last-child {
+    border-right: unset;
+}
+
+.delete-text {
+font-weight: 400;
+font-size: 0.75rem;
+line-height: 1.125rem;
+color: var(--color-primary);
+}
+.preview_heading :global(p){
+font-size: 0.875rem;
+font-weight: 500;
+line-height: 1.125rem;
+color: var(--color-primary-700);
+margin-bottom: 0rem;
+}
+.comment__description{
+    max-height: 4rem;
+    display: block;
+}
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+.quoteSetup-scroll :global([data-testid="quoteSetupList"]),
+.tierSetup-scroll :global([data-testid="tierSetupList"]) {
+    overflow: auto;
+}
+.comments_textarea{
+    height:3rem !important;
+}
+.textarea-labels{
+    margin-top:0.5rem !important;
+}
+.h-line{
+    margin-top:1.125rem !important;
+    margin-bottom: 1.125rem !important;
+}
+.tierSetup-scroll :global(._ERP-COMPONENTS_Custom_Filter ._ERP-COMPONENTS_Custom_Filter_Tab_Containts ._ERP-COMPONENTS_RC-filter ._ERP-COMPONENTS_checkbox.erp_filter_custom_scroll_thin),
+.quoteSetup-scroll :global(._ERP-COMPONENTS_Custom_Filter ._ERP-COMPONENTS_Custom_Filter_Tab_Containts ._ERP-COMPONENTS_RC-filter ._ERP-COMPONENTS_checkbox.erp_filter_custom_scroll_thin) {
+    height: 70px !important;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1800px) {
+.h-line{
+    margin-top:1.45rem !important;
+    margin-bottom: 1.45rem !important;
+}
+}
+@media screen and (min-width: 1024px) and (max-width: 1260px) {
+.comments_textarea{
+    height:3.5rem !important;
+}
+.quotetype_list_box{
+    padding: 0.85rem 1.125rem;
+}
+.textarea-labels{
+    margin-top:0.75rem !important;
+}
+.quoteSetup-scroll :global([data-testid="quoteSetupList"]) {
+  overflow: auto;
+}
+}    
+@media screen and (min-width: 1261px) and (max-width: 1360px) {
+.comments_textarea{
+    height:3.5rem !important;
+}
+.quotetype_list_box{
+    padding: 0.85rem 1.125rem;
+}
+.textarea-labels{
+    margin-top:0.75rem !important;
+}
+}  
+@media screen and (min-width: 1361px) and (max-width: 1400px) {
+.comments_textarea{
+    height:4rem !important;
+}
+.quotetype_list_box{
+    padding: 0.938rem 1.125rem;
+}
+.textarea-labels{
+    margin-top:1.25rem !important;
+}
+}
+@media screen and (min-width: 1401px) and (max-width: 1590px) {
+.comments_textarea{
+    height:4rem !important;
+}
+.quotetype_list_box{
+    padding: 0.938rem 1.125rem;
+}
+.textarea-labels{
+    margin-top:1.25rem !important;
+}
+}
+@media screen and (min-width: 1591px) and (max-width: 1660px) {
+.comments_textarea{
+    height:4rem !important;
+}
+.quotetype_list_box{
+    padding: 0.938rem 1.125rem;
+}
+}
+@media screen and (min-width: 1661px) and (max-width: 1800px) {
+.comments_textarea{
+    height:4rem !important;
+}
+.quotetype_list_box{
+    padding: 1rem 1.125rem;
+}
+}   
