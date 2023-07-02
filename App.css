@@ -1,0 +1,173 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.btn-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  margin: 0 auto;
+  margin-bottom: 0.525rem;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.activatesucessbox {
+  display: block;
+}
+.inactivatesucessbox {
+  display: none;
+}
+#side-nav {
+  width: 250px;
+  position: fixed;
+  height: 100vh;
+  margin-top: 65px;
+  background-color: #ffc14d;
+  color: var(--color-secondary);
+  transition: all 0.3s;
+}
+
+#side-nav.active {
+  margin-left: -250px;
+}
+#main-content {
+  width: 100%;
+  padding: 20px 10px;
+  margin-top: 65px;
+  height: calc(100% - 70px);
+  transition: all 0.3s;
+  position: relative;
+  left: 0;
+}
+#main-content.active {
+  width: 100%;
+}
+#side-nav ul {
+  list-style: none;
+  padding: 0px;
+}
+#side-nav ul li {
+  padding: 5px 10px;
+  color: white;
+  text-align: left;
+  border-bottom: 1px solid white;
+}
+#side-nav ul a {
+  text-decoration: none;
+}
+.menu-activeborder {
+  background-color: red;
+}
+.navbar__link {
+  font-size: 0.938rem;
+  cursor: pointer;
+  color: black;
+  padding: 10px;
+  display: block;
+  text-align: left;
+  text-decoration: none;
+}
+nav a:hover {
+  color: white;
+  text-decoration: none;
+}
+.navbar__link--active {
+  background-color: #a6a6a6;
+  color: black;
+}
+.float-right {
+  float: right;
+  font-size: 0.938rem;
+  margin-top: 5px;
+}
+.show-it {
+  display: block;
+  margin-left: 25px;
+}
+.hide-it {
+  display: none;
+}
+.fa-icon {
+  font-size: 1.25rem;
+  margin: 0px 5px;
+}
+.hide-nav {
+  display: none;
+}
+.App header {
+  position: fixed;
+  padding: 20px 0px;
+  height: 65px;
+  z-index: 10;
+  width: 100%;
+  background-color: #a6a6a6;
+  display: flex;
+  align-items: center;
+}
+.App header nav .fa-icon {
+  color: white;
+  margin-left: 20px;
+  cursor: pointer;
+}
+table {
+  font-family: 'Poppins', sans-serif !important;
+  border-collapse: separate !important;
+  border-spacing: 0 3px !important;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #a6a6a6;
+  text-align: left;
+  padding: 8px;
+}
+.nav-tabs {
+  border-bottom: none !important;
+}
+
+/* date picker color */
+.react-datepicker__day--selected {
+  background-color: var(--bg-green-700) !important;
+}
+
+.react-datepicker__day--keyboard-selected {
+  background-color: var(--bg-green-700) !important;
+}
+
+.react-datepicker__month-dropdown-container--scroll {
+  margin: 3px 2px !important;
+}
+/* the below style removes the expand and collapse option in toast service */
+.custom-toast-expand-colleps-btn {
+  display: none !important;
+}

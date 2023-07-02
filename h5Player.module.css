@@ -1,0 +1,435 @@
+/* audio tools */
+.audio_player {
+  position: relative;
+}
+.audio_player :global(.rhap_container) {
+  background-color: var(--bg-green-700);
+}
+.empty-audio-results :global(p){
+  font-weight: 400;
+  line-height: 1.5rem;
+  font-size: 1.875rem;
+  color: var(--color-primary-700);
+  white-space: nowrap;
+  margin-bottom: 1rem;
+}
+.empty-audio-results :global(img) {
+  width: 11rem;
+}
+.empty-audio-results :global(.underline){
+  border-bottom: 2px solid #91d000;
+}
+.audio_player :global(.rhap_main-controls-button) {
+  color: white;
+}
+.audio_player :global(.rhap_volume-button) {
+  color: white;
+}
+.audio_player :global(.rhap_volume-indicator) {
+  background-color: white;
+}
+.audio_player :global(.rhap_progress-indicator) {
+  background-color: white;
+}
+.audio_player :global(.rhap_progress-section) {
+  margin-right: 2.5rem;
+}
+.audio_player :global(.rhap_time) {
+  color: white;
+}
+.talent-search-voice :global(.rhap_header) {
+  left: 13rem !important;
+}
+.voice-clip-modal :global(.rhap_header) {
+  left: 12.35rem !important;
+}
+.audio_player :global(.rhap_header) {
+  position: absolute;
+  left: 12.35rem;
+  bottom: 50%;
+  font-size: 0.65rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: 'Poppins';
+  color: var(--color-secondary);
+}
+.audio_player :global(.rhap_download-progress) {
+  background-color: #7caf04;
+  border-radius: 4px;
+}
+.audio_player :global(.rhap_progress-filled) {
+  background-color: var(--bg-primary);
+  border-radius: 4px;
+}
+.audio_player :global(.rhap_horizontal-reverse .rhap_controls-section) {
+  margin-right: 8px;
+}
+.audio_player :global(.rhap_volume-bar) {
+  background-color: var(--bg-primary);
+  border-radius: 5px;
+}
+.audio_player :global(a) {
+  position: absolute;
+  right: 1.5rem;
+  top: 1.25rem;
+}
+.audio_player :global(.rhap_controls-section) {
+  flex: unset;
+}
+.audio_player :global(.rhap_time) {
+  font-size: 0.765rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  font-family: 'Poppins';
+  color: var(--color-secondary);
+}
+.audio_player :global(.rhap_time.rhap_current-time) {
+  padding-right: 1rem;
+}
+.audio-file_name {
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.125rem;
+  font-family: 'Poppins';
+  color: var(--color-text-gray);
+  min-width:5rem;
+  max-width:10rem;
+}
+.duration {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.125rem;
+  font-family: 'Poppins';
+  color: var(--color-primary-700);
+}
+.brd-ind-bottom :global(.brd_bottom) {
+  border-bottom: 1px solid var(--border-right-bottom-color);
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.brd-ind-bottom:first-child :global(.brd_bottom){
+  padding-top: 0rem !important;
+}
+.brd-ind-bottom:last-child :global(.brd_bottom){
+  padding-bottom: 0rem !important;
+  border-bottom: unset !important;
+}
+.download{
+  cursor:pointer;
+}
+.tny-border {
+  border-right: 1px solid var(--border-right-bottom-color);
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-bottom: 0.625rem;
+}
+.tny-border :global(p) {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 0.625rem;
+  line-height: 1rem;
+  color: var(--color-link-700);
+  margin-left: 0rem;
+  margin-bottom: 0.25rem;
+}
+.tny-border :global(span) {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 0.625rem;
+  line-height: 1rem;
+  color: var(--color-link-700);
+}
+.tny-border-audio {
+  border-right: 1px solid var(--border-right-bottom-color);
+}
+.tny-border-list {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.tny-border-list :global(p) {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 0.625rem;
+  line-height: 1rem;
+  color: var(--color-link-700);
+  margin-left: 0rem;
+  margin-bottom: 0rem;
+}
+.tny-border-list :global(span) {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 0.625rem;
+  line-height: 1rem;
+  color: var(--color-link-700);
+}
+.voice-boxes {
+  background-color: var(--bg-primary-700);
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-right: 0.5rem;
+  margin-bottom: 1.125rem;
+  width: fit-content;
+}
+.voice-boxes :global(span) {
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 0.625rem;
+  line-height: 1rem;
+  color: var(--color-link-700);
+  white-space: nowrap;
+  align-items: center;
+  align-self: center;
+}
+.tny-border:last-child {
+  border-right: unset;
+}
+.border-btm {
+  min-height: 3rem;
+  border-bottom: 1px solid var(--border-right-bottom-color);
+}
+.border_bottom {
+  border-bottom: 1px solid var(--border-color);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.border_bottom:first-child{
+  padding-top:0rem;
+}
+.border_bottom:last-child {
+  border-bottom: none;
+}
+.pre-next :global(.prev),
+.pre-next :global(.next) {
+  width: 2.25rem;
+}
+.Img {
+  width: 4.125rem;
+  height: 4.125rem;
+  border-radius: 50%;
+  object-fit: cover;
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border: 5px solid #96d600;
+  background-color: var(--bg-primary);
+}
+.Img_audio {
+  width: 2.4375rem;
+  height: 2.4375rem;
+  border-radius: 50%;
+  object-fit: cover;
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border: 2px solid var(--border-color);
+  background-color: var(--bg-primary);
+}
+.profile_name {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  color: var(--color-primary-700);
+  min-width: 10rem;
+  max-width: 20rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.profile_details {
+  margin-left: 1rem;
+}
+.profile_details :global(p) {
+  text-decoration: underline;
+  font-size: 0.75rem;
+  font-weight: 500;
+  font-family: 'Poppins';
+  line-height: 1.25rem;
+  color: #91d000;
+  margin-bottom: 0rem;
+}
+.profile_details :global(span) {
+  font-size: 0.625rem;
+  font-weight: 400;
+  font-family: 'Poppins';
+  line-height: 1.35rem;
+  color: var(--color-primary-700);
+}
+
+.dropfile-in-documents {
+  padding: 0.938rem;
+  border: 2px dashed var(--border-dashed);
+  border-radius: 5px;
+  opacity: 0.61;
+  display: flex;
+  align-items: center;
+}
+.upload-text {
+  font-size: 0.75rem;
+  flex: 1 1;
+  text-align: center;
+  cursor: pointer;
+  font-family: 'Poppins';
+  font-weight: 400;
+  line-height: 1.125rem;
+  color: var(--color-primary-700);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width:13rem;
+}
+.name-input {
+  width: 15rem;
+}
+.gender-select {
+  width: 10rem;
+}
+.tags-box {
+  background-color: var(--bg-primary);
+  border: 1px solid var(--primary-border);
+  border-radius: 5px;
+  padding: 1rem;
+}
+.audio-tags-box {
+  padding: 1.145rem;
+  padding-right: 0.938rem;
+}
+.box {
+  width: fit-content;
+  background-color: var(--bg-primary-700);
+  box-shadow: 0.625rem 0rem 1.25rem #0000000d;
+  border: 1px solid #f2f2f2;
+  text-transform: capitalize;
+  border-radius: 5px;
+  padding: 5px 15px;
+  margin-right: 0.5rem;
+  margin-bottom: 1.125rem;
+}
+.outer-box {
+  text-align: right;
+  margin-right: 0.625rem;
+  margin-top: -0.7275rem;
+}
+.outer-box .remove {
+  margin-bottom: -1.2rem;
+  width: 1rem;
+  cursor: pointer;
+}
+.File_Name {
+  font-size: 0.75rem;
+  font-weight: 400;
+  font-family: 'Poppins';
+  line-height: 1.125rem;
+  color: var(--color-primary-700);
+}
+.voiceclips-modal :global(.modal-dialog) {
+  width: 45%;
+  max-width: 100%;
+}
+.voiceclips-modal:global(.side-modal .modal-content) {
+  max-height: calc(100vh - 2.75rem);
+}
+.voiceclips-modal:global(.side-modal .modal-dialog) {
+  margin:1.25rem auto;
+}
+.voiceclips-modal :global(.voice_clip .side-form-group){
+  margin-bottom: 0.125rem;
+}
+.voiceclips-modal :global(.voice_clip .side-form-group.mt-3){
+  margin-top: 0.938rem !important;
+}
+.voiceclips-modal :global(.voice_clip .side-form-group label){
+  margin-bottom: 0.125rem !important;
+}
+.voiceclips-modal :global(.voice_clip .add-voiceClips){
+margin-top: 0.25rem;
+}
+.voice_clip:nth-child(odd) > .voice-right-border {
+  border-right: 1px solid var(--border-right-bottom-color);
+}
+.down-dur-gap {
+  margin-right: 1.785rem;
+}
+@media only screen and (min-width: 320px) and (max-width: 1023px) {
+  .tags-box {
+    padding: 0.625rem;
+  }
+  .audio_player :global(.rhap_header) {
+    left: 13.5rem;
+  }
+  .voiceclips-modal :global(.modal-dialog) {
+    width: 65%;
+  }
+  .tny-border {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1260px) {
+  .tags-box {
+    padding: 0.625rem;
+  }
+  .tny-border {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+  .audio_player :global(.rhap_header) {
+    left: 13.5rem;
+  }
+  .voiceclips-modal :global(.modal-dialog) {
+    width: 60%;
+  }
+}
+@media only screen and (min-width: 1280px) and (max-width: 1360px) {
+  .tags-box {
+    padding: 0.625rem;
+  }
+  .audio_player :global(.rhap_header) {
+    left: 13.5rem;
+  }
+  .voice-clip-modal :global(.rhap_header) {
+    left: 13.2rem !important;
+  }
+  .talent-search-voice :global(.rhap_header) {
+    left: 14rem !important;
+  }
+  .voiceclips-modal :global(.modal-dialog) {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 1366px) and (max-width: 1440px) {
+  .tags-box {
+    padding: 0.625rem;
+  }
+  .audio_player :global(.rhap_header) {
+    left: 13.5rem;
+  }
+  .voice-clip-modal :global(.rhap_header) {
+    left: 13.7rem !important;
+  }
+  .voiceclips-modal :global(.modal-dialog) {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 1500px) and (max-width: 1660px) {
+  .voice-clip-modal :global(.rhap_header) {
+    left: 12.2rem !important;
+  }
+  .voiceclips-modal :global(.modal-dialog) {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 1680px) and (max-width: 1800px) {
+  .voice-clip-modal :global(.rhap_header) {
+    left: 11rem !important;
+  }
+  .voiceclips-modal :global(.modal-dialog) {
+    width: 50%;
+  }
+}
