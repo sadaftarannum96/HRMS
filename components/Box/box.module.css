@@ -1,0 +1,53 @@
+.box-wrap {
+    background-color: var(--bg-primary-700);
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 0.5rem;
+    margin-bottom: 1.125rem;
+    width: fit-content;
+  }
+  .box-text {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    color: var(--color-primary-700);
+    white-space: nowrap;
+    align-items: center;
+    align-self: center;
+  }
+  
+.box-scroll:global(.side-custom-scroll) {
+    max-height: 14.5rem;
+    flex-grow: 1;
+  }
+  .box-scroll-tags:global(.side-custom-scroll) {
+    max-height: 7.5rem;
+    flex-grow: 1;
+  }
+  .box-scroll-documents:global(.side-custom-scroll) {
+    max-height: 15rem;
+    flex-grow: 1;
+  }
+  @media screen and (min-width: 576px) and (max-width: 1023px) {
+    .box-scroll:global(.side-custom-scroll) {
+      max-height: 15rem;
+    }
+  }
+  @media screen and (min-width: 1024px) and (max-width: 1260px) {
+    .box-scroll:global(.side-custom-scroll) {
+      max-height: 15rem;
+    }
+  }
+  @media screen and (min-width: 1261px) and (max-width: 1365px) {
+    .box-scroll:global(.side-custom-scroll) {
+    max-height: 14.875rem;
+    }
+  }  
+  @media screen and (min-width: 1366px) and (max-width: 1400px) {
+    .box-scroll:global(.side-custom-scroll) {
+      max-height: 12rem;
+    }
+  }
+  

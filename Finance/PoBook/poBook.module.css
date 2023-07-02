@@ -1,0 +1,235 @@
+.POBook-table :global(table tr th:nth-child(9)),
+.POBook-table :global(table tr td:nth-child(9)) {
+  width: 5%;
+  max-width: 100%;
+}
+.import-po-modal:global(.side-modal .modal-dialog) {
+  width: 40rem;
+  max-width: 100%;
+}
+
+.POBook-table :global(table tr th:nth-child(8)),
+.POBook-table :global(table tr td:nth-child(8)) {
+  width: 17%;
+}
+.po-list :global(p) {
+  font-weight: 500;
+  line-height: 1.25rem;
+  font-size: 0.75rem;
+}
+
+.POBook-table :global(table tr th) {
+  white-space: nowrap;
+}
+.viewpo_box {
+  background-color:  var(--bg-primary);
+  border: 1px solid var(--primary-border);
+  border-radius: 5px;
+  padding: 0.938rem 1.125rem;
+}
+.separator-grandTotal{
+  margin-left: 18rem;
+  border-top: 1px solid var(--primary-border);
+  padding-top: 1.125rem;
+  padding-left: 3rem;
+  padding-right: 1rem;
+}
+.viewpo_box :global(p) {
+  font-weight: 500;
+  line-height: 1.313rem;
+  font-size: 0.875rem;
+  color: var(--color-primary-700);
+}
+
+.po-popover:global(.settings-modal-popover.popover) {
+  right: 0.23rem !important;
+  top: 1.125rem !important;
+}
+
+.po-popover:global(.settings-modal-popover.popover .arrow) {
+  top: -1rem !important;
+}
+
+.po-popover:global(.settings-modal-popover.popover .popover-body) {
+  padding: 0.55rem 0.785rem;
+}
+
+.audit-table :global(table tr th:first-child) {
+  padding-left: 1.975rem !important
+}
+
+.audit-table :global(table tr th:nth-child(2)),
+.audit-table :global(table tr td:nth-child(2)) {
+  width: 80%;
+  max-width: 100%;
+}
+
+.invoice-table :global(table tr th:nth-child(5)),
+.invoice-table :global(table tr td:nth-child(5)) {
+  width: 26%;
+  max-width: 100%;
+}
+
+.invoice-table,
+.audit-table {
+  max-height: 250px;
+}
+
+.po-list :global(span) {
+  font-weight: 400;
+  line-height: 1.25rem;
+  font-size: 0.75rem;
+  color: var(--color-primary-700);
+}
+
+.po-list {
+  border-right: 1px solid var(--border-color);
+  padding-right: 0.785rem;
+  padding-left: 0.785rem;
+}
+
+.poCount {
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  color: var(--color-primary-700);
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.poCount :global(p) {
+  margin-bottom: 0rem;
+}
+.brd-right {
+  border-right: 2px solid #70707073;
+  padding-right: 1.5rem;
+}
+.brd-right:last-of-type{
+  border-right: 0px solid #70707073;
+}
+.brd-right :global(p.all_font),
+.brd-right :global(span.all_font){
+ font-weight: 600;
+}
+.poCount :global(span) {
+  padding-left: 0.2rem;
+}
+.brd-right.font__bold :global(p.all_font),
+.brd-right.font__bold :global(span.all_font){
+font-weight: 600;
+}
+.brd-right.font__normal :global(p.all_font),
+.brd-right.font__normal :global(span.all_font){
+font-weight: 400;
+}
+.import-btn:global(.btn-primary) {
+  background-color: var(--bg-primary) !important;
+  color: var(--color-primary-700) !important;
+  border: 1px solid var(--border-color-primary) !important;
+  border-top-left-radius: 5px !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-left-radius: 5px !important;
+  border-bottom-right-radius: 0px !important;
+  height: 36px;
+  width: 5rem;
+}
+.import-select :global(.react-dropdown-select-dropdown) {
+  width: 7.5rem;
+  right: 0;
+  left: auto;
+  box-shadow: 0px 5px 15px #0000001a;
+  border: 1px solid var(--border-color-primary);
+}
+
+.import-select :global(.react-dropdown-select.side-form-control),
+.import-select :global(.react-dropdown-select.side-form-control:focus) {
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 5px !important;
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 5px !important;
+  border-left: 0px solid transparent;
+  /* box-shadow: unset !important; */
+}
+
+.import-select :global(.react-dropdown-select.side-form-control:focus) {
+  border: 1px solid var(--border-color-primary) !important;
+}
+
+.import-select :global(.react-dropdown-select-dropdown-handle svg.up_arrow) {
+  width: 0.7rem !important;
+}
+
+.import-select :global(.react-dropdown-select-dropdown-handle svg.down_arrow) {
+  width: 0.7rem !important;
+}
+.import-select :global(.react-dropdown-select-dropdown-handle.css-flkni1-DropdownHandleComponent) {
+  margin-left: 0px;
+}
+.import-select :global(.react-dropdown-select-dropdown-handle .up_arrow){
+  margin-left: 0px !important;
+}
+.import-select :global(.react-dropdown-select-dropdown-handle.css-ouj7ce-DropdownHandleComponent) {
+  margin-left: 0px;
+}
+.import-select :global(.react-dropdown-select-input) {
+  width: 0rem;
+}
+.import-select :global(.react-dropdown-select .react-dropdown-select-content span) {
+  display: none;
+}
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+  .POBook-table :global(table tr th:nth-child(3)),
+  .POBook-table :global(table tr td:nth-child(3)) {
+    width: 17%;
+  }
+  .viewpo_box {
+    padding: 0.938rem;
+  }
+.invoice-date :global(.react-datepicker__day-name),
+.invoice-date :global(.react-datepicker__day),
+.invoice-date :global(.react-datepicker__time-name){
+  width:1.35rem;
+  height:1.35rem;
+  line-height: 1.35rem;
+ }
+ .import-btn.import-project-btn:global(.btn-primary){
+  width:5.5rem;
+ }
+ .import-select.import-project-select :global(.react-dropdown-select-dropdown) {
+  width: 8rem;
+ }
+}
+@media screen and (min-width: 1024px) and (max-width: 1379px) {
+  .POBook-table :global(table tr th:nth-child(3)),
+  .POBook-table :global(table tr td:nth-child(3)) {
+    width: 17%;
+  }
+  .viewpo_box {
+    padding: 0.938rem;
+  }
+.invoice-date :global(.react-datepicker__day-name),
+.invoice-date :global(.react-datepicker__day),
+.invoice-date :global(.react-datepicker__time-name){
+  width: 1.365rem;
+  height: 1.365rem;
+  line-height: 1.365rem;
+ }
+ .import-btn.import-project-btn:global(.btn-primary){
+  width:5.5rem;
+ }
+ .import-select.import-project-select :global(.react-dropdown-select-dropdown) {
+  width: 8rem;
+ }
+}
+@media screen and (min-width: 1380px) and (max-width: 1500px) {
+.POBook-table :global(table tr th:nth-child(3)),
+.POBook-table :global(table tr td:nth-child(3)) {
+  width: 13%;
+}
+}
+@media screen and (min-width: 1501px) and (max-width: 1600px) {
+  .POBook-table :global(table tr th:nth-child(3)),
+  .POBook-table :global(table tr td:nth-child(3)) {
+    width: 14%;
+  }
+  }

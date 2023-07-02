@@ -1,0 +1,336 @@
+.wrap-table-client:global(p) {
+  word-break: break-all;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.wrap-table-client:global(.btn.btn-primary.Table_modal_button) {
+  max-width: 260px;
+  text-decoration: underline;
+}
+.wrap-table-client:global(.btn.btn-primary.Table_modal_button.popover-list-clients){
+  width:fit-content;
+} 
+.wrap-table-client:global(.btn.btn-primary.Table_modal_button:hover),
+.wrap-table-client:global(.btn.btn-primary.Table_modal_button:focus){
+box-shadow: none !important;
+}
+.wrap-table-client {
+  font-weight: 400;
+  line-height: 1.25rem;
+  font-size: 0.75rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--main-theme-color);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.File_Name {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.125rem;
+  color: var(--color-primary-700);
+  text-align: left;
+}
+
+.pdf-file {
+  margin-right: 1rem;
+}
+
+.outer-box {
+  text-align: right;
+  margin-right: 0.625rem;
+}
+
+.outer-box .remove {
+  margin-bottom: -1.2rem;
+  width: 1rem;
+  cursor: pointer;
+}
+
+.doc_box {
+  background-color:  var(--bg-primary);
+  border: 1px solid var(--border-color-gray);
+  min-width: 10.8rem;
+  max-width: 100%;
+  border-radius: 5px;
+  padding: 0.5rem 0.938rem;
+  margin-right: 0.5rem;
+  margin-bottom: 1.125rem;
+}
+.Client_rates-table :global(.react-bootstrap-table table){
+  margin-top:-3px;
+}
+.search-control {
+  padding-left: 1.875rem !important;
+  background-color: var(--bg-search-control) !important;
+}
+
+.Client_rates-table :global(table tr th:last-child),
+.Client_rates-table :global(table tr td:last-child) {
+  width: 6%;
+}
+
+.customRates-modal :global(.modal-dialog) {
+  min-width: 64.5rem;
+  max-width: 74.5rem;
+}
+.loc-rates-table.internal_client_rates :global(table tr th:nth-child(9)),
+.rates-table.internal_client_rates :global(table tr th:nth-child(8)), 
+.rates-table.internal_client_rates :global(table tr th:nth-child(11)) {
+  width: 10rem;
+}
+.clientDetails-modal :global(.modal-dialog) {
+  min-width: 64.5rem;
+  max-width: 74.5rem;
+}
+
+.Clients_box {
+  background-color:  var(--bg-primary);
+  border: 1px solid var(--primary-border);
+  border-radius: 5px;
+  padding: 0.938rem 1.125rem;
+}
+
+.Clients_box :global(p) {
+  font-weight: 500;
+  line-height: 1.313rem;
+  font-size: 0.875rem;
+  color: var(--color-primary-700);
+}
+
+.view-border-right {
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+}
+
+.view-border-right:last-child {
+  border-right: unset;
+}
+.clients-popover:global(.popover .arrow){
+  left:0.5rem !important;
+}
+.clients-popover:global(.popover.filter-popover){
+  right:auto !important;
+  left:-1rem !important;
+}
+.clients-popover:global(.popover.filter-popover .popover-body) {
+  min-width: 22.5rem;
+}
+.view-border-right-list {
+  padding-right: 3.25rem;
+  padding-left: 3.25rem;
+}
+
+.active_popover:global(.popover) {
+  left: 0% !important;
+  right:auto !important;
+}
+.Client_rates-table .clients-active{
+  width: 10rem;
+}
+.active_popover:global(.popover .popover-body .Table_modal_link){
+  padding: 0.125rem;
+}
+.active_popover:global(.popover .popover-body .Table_modal_link:focus),
+.active_popover:global(.popover .popover-body .Table_modal_link:active:focus){
+  outline-offset: -2px;
+  border-radius: 3px; 
+}
+.view-details-list :global(p) {
+  width: 8.65rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.notes_des.view-details-list {
+  width: unset;
+  white-space: normal;
+  overflow: unset;
+  text-overflow: unset;
+}
+
+.viewClient-popup:global(.popover) {
+  top: 0.875rem !important;
+}
+
+.view-details-list.addressDetailsList-left {
+  width: 10.25rem;
+}
+
+.view-details-list.productionDetailsList-left {
+  width: 11.25rem;
+}
+
+.view-details-list :global(p),
+.view-details-list-b :global(p) {
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  color: var(--color-primary-700);
+  margin-bottom: 0rem;
+  flex: 3 1 0%;
+}
+
+.view-details-list :global(span),
+.view-details-list-b :global(span) {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  color: var(--text-label-color);
+  flex: 3 1 0%;
+}
+
+.delete-text {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  color: var(--color-primary);
+}
+
+.rates-table :global(table tr th) {
+  white-space: nowrap;
+}
+.rates-table{
+position: relative;
+}
+.rates-table:global(+div .showMore_loading){
+  position: absolute;
+  bottom: auto;
+  top:auto;
+  left:46.5%;
+}
+.rates-table :global(table tr td) {
+  padding-right: 10px;
+}
+.rates-table :global(table) {
+  table-layout: fixed;
+  width: 100%;
+  padding-right: 0.25rem;
+  margin-top: -3px;
+}
+
+.rates-table:global(.side-custom-table tr td) {
+  padding: 0.595rem 1.25rem;
+}
+
+.rates-table:global(.side-custom-table tr td .side-form-control) {
+  padding: 0.225rem 1.25rem !important;
+}
+
+.rates-table :global(table .react-dropdown-select.side-form-control) {
+  padding: 0.225rem 0.938rem !important;
+}
+
+.rates-table :global(table tr td:nth-child(7)),
+.rates-table :global(table tr td:nth-child(6)) {
+  padding-right: 2.125rem !important;
+}
+
+.rates-table :global(table tr th:nth-child(1)),
+.rates-table :global(table tr th:nth-child(2)) {
+  width: 12rem;
+}
+
+.rates-table :global(table tr th:nth-child(3)) {
+  width: 20rem;
+}
+
+.rates-table :global(table tr th:nth-child(4)),
+.rates-table :global(table tr th:nth-child(5)) {
+  width: 10rem;
+}
+
+.rates-table :global(table tr th:nth-child(9)),
+.rates-table :global(table tr th:nth-child(6)) {
+  width: 12rem;
+}
+
+.rates-table :global(table tr th:nth-child(4)),
+.rates-table :global(table tr th:nth-child(5)),
+.rates-table :global(table tr td:nth-child(4)),
+.rates-table :global(table tr td:nth-child(5)) {
+  padding-right: 0.45rem;
+}
+
+.rates-table :global(table tr td:nth-child(6)),
+.rates-table :global(table tr td:nth-child(5)) {
+  padding-left: 0.5rem;
+}
+
+.rates-table :global(table tr th:nth-child(7)) {
+  width: 10rem;
+  padding-right: 2.125rem !important;
+}
+
+.rates-table :global(table tr th:nth-child(6)) {
+  padding-right: 2.125rem !important;
+}
+
+.rates-table :global(table tr th:nth-child(5)),
+.rates-table :global(table tr td:nth-child(5)) {
+  padding-right: 1.25rem !important;
+}
+
+.rates-table :global(table tr th:nth-child(2)),
+.rates-table :global(table tr td:nth-child(2)) {
+  padding-right: 0.35rem !important;
+}
+
+.rates-table :global(table tr th:nth-child(8)) {
+  width: 8rem;
+}
+
+.loc-rates-table.rates-table :global(table tr th:nth-child(8)) {
+  width: 10rem;
+}
+
+.rates-table :global(table tr th:nth-child(12)) {
+  width: 10rem;
+}
+.rates-table :global(table tr th.sortable.action-header),
+.rates-table :global(table tr td.action-header){
+  width:7.5rem !important;
+}
+.rates-table :global(table tr td:nth-child(2)),
+.rates-table :global(table tr td:nth-child(3)) {
+  padding-right: 0rem !important;
+}
+
+.loc-rates-table :global(table tr th:nth-child(9)) {
+  width: 10rem;
+}
+
+.loc-rates-table :global(table tr th:nth-child(10)) {
+  width: 12rem;
+}
+.rates-table {
+  height: calc(100vh - 20rem);
+}
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+.view-details-list :global(p) {
+  width: 7.5rem;
+}
+.view-details-list.addressDetailsList-left {
+  width: 8.25rem;
+}
+.view-details-list.productionDetailsList-left {
+  width: 8.5rem;
+}
+}
+@media screen and (min-width: 1024px) and (max-width: 1389px) {
+  .wrap-table-client:global(.btn.btn-primary.Table_modal_button) {
+    max-width: 200px;
+  }
+
+  .Client_rates-table :global(table tr th:last-child),
+  .Client_rates-table :global(table tr td:last-child) {
+    width: 7%;
+  }
+  .rates-table :global(table) {
+    margin-top: 0px;
+  }
+}

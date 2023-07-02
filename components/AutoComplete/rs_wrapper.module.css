@@ -1,0 +1,12 @@
+:global(.rs-wrapper) {
+  height: auto !important;
+  width: 100%;
+}
+
+:global(.rs-wrapper__control) {
+  height: auto !important;
+}
+:global(.rs-wrapper__control.rs-wrapper__control--is-focused) {
+  box-shadow: 0 0 0 0.2rem #91cf0040;
+}
+

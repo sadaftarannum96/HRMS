@@ -1,0 +1,92 @@
+.toggle-dropdown-box .btn.btn-primary{
+    background-color: transparent !important;
+    box-shadow: none;
+    border: none;
+    height:unset;
+  }
+  .toggle-dropdown-box .dropdown-toggle::after {
+    display: none;
+  }
+  .toggle-dropdown-box .dropdown-menu {
+    display: block;
+    padding: 0.5rem 0.625rem;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 20px #00000029;
+    border-radius: 0.5rem !important;
+    overflow: hidden;
+    min-width: unset;
+    left: auto !important;
+    height:-webkit-fit-content;
+    height:-moz-fit-content;
+    height:fit-content;
+    border:1px solid var(--border-color);
+    background-color: var(--bg-primary);
+    margin: 1px -5px !important;
+  }
+  .toggle-dropdown-box .dropdown-item {
+    background-color: transparent;
+    color:var(--color-primary-700);
+    border-radius: 5px;
+    padding: 0.25rem 0.5rem;
+    text-align: left;
+    font-size: 0.75rem;
+    font-weight: 400;
+    margin-bottom: 0.25rem;
+  }
+  .toggle-dropdown-box,
+  .dropdown-item:last-child {
+    margin-bottom: 0;
+  }
+  .toggle-dropdown-box .dropdown-item:hover,
+  .toggle-dropdown-box .dropdown-item:focus,
+  .toggle-dropdown-box .dropdown-item:active {
+    color: #16181b;
+    text-decoration: none;
+    background-color: var(--bg-light);
+  }
+  .toggle-dropdown-box.Project_notes_dropdown .btn.btn-primary{
+    padding: 0.125rem 0.65rem !important;
+  }
+  .toggle-dropdown-box.Project_notes_dropdown .dropdown-menu{
+    left:auto !important;
+  }
+  .toggle-dropdown-box.ClientRates_dropdown .btn.btn-primary{
+    padding: 0.5rem !important;
+  }
+  .toggle-dropdown-box.ClientRates_dropdown .dropdown-menu{
+    left: auto !important;
+    min-width: unset;
+    width: max-content;
+    height:-webkit-fit-content;
+    height:-moz-fit-content;
+    height:fit-content; 
+  }
+  .toggle-dropdown-box.Logout_dropdown .btn.btn-primary{
+    padding:0rem !important;
+    margin-left: 0.5rem;
+  }
+  .toggle-dropdown-box.Logout_dropdown .btn.btn-primary .profile-dots{
+    margin-left:0rem;
+    padding:0px 9px;
+  }
+  .toggle-dropdown-box.Logout_dropdown .dropdown-menu{
+    left: auto !important;
+    min-width: 7rem;
+  }
+  .toggle-dropdown-box .dropdown-item:focus,
+  .users_dropdown .users_dropdown_menu .users_dropdown_item:focus{
+    outline-offset: 0px;
+    border-radius: 4px;
+    outline-color: #91cf0085;
+
+  }
+  /* .dropdown-toggle.btn.btn-primary:focus,
+  .dropdown-toggle.btn.btn-primary.focus{
+    box-shadow: none !important;
+  } */
+  .dropdown-toggle.btn.btn-primary:focus-visible,
+  .dropdown-toggle.btn.btn-primary.focus-visible{
+    box-shadow: 0 0 0 2px #91cf008a !important;
+    outline: none;
+  }

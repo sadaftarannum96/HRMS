@@ -1,0 +1,30 @@
+/*
+todo: move this to awl-custom css file
+*/
+.basic-info {
+  padding: 0.625rem 0.938rem;
+  background: #f9f9f9;
+  border: 1px solid var(--border-color-gray);
+  border-radius: 10px;
+}
+.basicinfo-check {
+  padding-left: 0;
+}
+.basic-info :global(label) {
+  font-size: 0.75rem !important;
+  font-weight: 400;
+}
+.basic-info :global(.custom-control) {
+  flex: 1;
+  margin: 10px 0;
+}
+.basic-info :global(.col-md-6) {
+  padding-left: 0;
+}
+.basic-info :global(.col-md-3) {
+  padding-left: 0;
+}
+.basicinfo-check :global(.custom-control-label::before) {
+  left: unset;
+  margin-right: 10px;
+}

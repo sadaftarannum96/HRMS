@@ -1,0 +1,700 @@
+.user-time {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.125rem;
+  color: var(--color-primary-700);
+}
+.calendar_body:last-of-type .Calendar_box{
+  padding-bottom:0.625rem;
+}
+.notes_User :global(p) {
+  font-size: 0.8975rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+  color: var(--color-main-titles);
+  margin-bottom: 0rem;
+}
+.notes_User :global(span) {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  color: var(--color-primary-700);
+}
+.User_Profile :global(img) {
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  border: 1px solid var(--primary-border);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.des-text {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.125rem;
+  color: #131212;
+}
+.todolist_box.calendar_box.date_padding{
+  padding: 0.55rem;
+}
+.Bulletin_box {
+  background-color:  var(--bg-primary);
+  border: 1px solid var(--primary-border);
+  border-radius: 5px;
+  padding: 1.125rem 1.5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.inner_bulletin_box {
+  background-color:  var(--bg-primary);
+  box-shadow: var(--primary-shadow);
+  border: 1px solid var(--border-notes-color);
+  border-radius: 10px;
+  padding: 1.125rem 1.25rem;
+  margin-bottom: 0.755rem;
+}
+.inner_bulletin_box:last-child {
+  margin-bottom: 0rem;
+}
+.dashbaord_box {
+  background-color:  var(--bg-primary);
+  box-shadow: var(--primary-shadow);
+  border: 1px solid var(--primary-border);
+  border-radius: 10px;
+  padding: 1.25rem;
+}
+.dashbaord_box :global(p.dashboard_title) {
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: var(--color-primary-700);
+  line-height: 1.313rem;
+}
+.dashboard_todo_input {
+  padding: 0.5rem !important;
+  margin-bottom:0.125rem;
+}
+.project-name-color :global(p) {
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  color: #8ed506 !important;
+}
+.favourite_table :global(table tr th.dashbaord-actions-th),
+.favourite_table :global(table tr td.dashbaord-actions-td) {
+  width: 16% !important;
+  max-width: 100%;
+  white-space: normal;
+  text-overflow:none;
+  overflow: visible;
+}
+.Brder_Right_dashboard {
+  border-right: 1px solid var(--border-color);
+}
+.calendar_header :global(p) {
+  font-weight: 500;
+  font-size: 0.75rem;
+  color: var(--color-primary-700);
+}
+.calendar_header {
+  border-bottom: 1px solid var(--border-color);
+  line-height: 50px;
+}
+.calendar_type {
+  background-color:  var(--bg-primary);
+  box-shadow: 0px 3px 10px #0000000f;
+  border-radius: 0px 5px 5px 0px;
+  padding: 0.5rem 0.625rem;
+  height: 6.35rem;
+}
+.Calendar_box {
+  padding: 0.625rem 0.625rem 0.25rem 0.625rem;
+  width: 10.725rem;
+}
+
+/* for react-calendar */
+.content_week_color_first {
+  background-color: var(--bg-green-700) !important;
+}
+.content_week_color {
+  background-color: #d6eba6 !important;
+}
+.react-calendar-dashboard button {
+  position: relative;
+  border-radius: 0px !important;
+  border: 0px solid var(--border-color);
+  background-color:  var(--bg-primary);
+}
+.react-calendar-dashboard > div {
+  display: flex;
+}
+.react-calendar-dashboard:global(.react-calendar-board.react-calendar) {
+  background-color:  var(--bg-primary);
+  border: 1px solid var(--primary-border);
+  border-radius: 3px;
+  padding: 0.938rem 1.125rem;
+}
+.react-calendar-dashboard:global(.react-calendar .react-calendar__navigation) {
+  margin-bottom: 1rem;
+}
+.react-calendar-dashboard:global(.react-calendar .react-calendar__navigation .react-calendar__navigation__label){
+  margin:0rem 0.25rem;
+}
+.react-calendar-dashboard:global(.react-calendar .react-calendar__month-view__weekdays) {
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-primary-700);
+}
+.events_border{
+  border-right:1px solid var(--border-color); 
+  /* height:100%; */
+}
+.react-calendar-dashboard:global(.react-calendar .react-calendar__month-view__days) {
+  background-color:  var(--bg-primary);
+  border: 1px solid var(--primary-border);
+  border-bottom: 0px solid var(--border-color);
+  border-right: 0px solid var(--border-color);
+  border-radius: 3px;
+}
+.react-calendar-dashboard:global(.react-calendar
+    .react-calendar__tile.react-calendar__month-view__days__day) {
+  border-right: 1px solid var(--primary-border);
+  border-bottom: 1px solid var(--primary-border);
+  padding: 0.5rem;
+  font-size: 0.785rem;
+  color: var(--secondary-text-color);
+  font-weight: 400;
+}
+.react-calendar-dashboard:global(.react-calendar
+    .react-calendar__navigation__arrow.react-calendar__navigation__prev-button),
+.react-calendar-dashboard:global(.react-calendar
+    .react-calendar__navigation__arrow.react-calendar__navigation__prev2-button),
+.react-calendar-dashboard:global(.react-calendar
+    .react-calendar__navigation__arrow.react-calendar__navigation__next-button),
+.react-calendar-dashboard:global(.react-calendar
+    .react-calendar__navigation__arrow.react-calendar__navigation__next2-button) {
+  background-color:  #fff;
+  border: 0.7724867463111877px solid #dee2ec;
+  border-radius: 50% !important;
+  font-size: 1.85rem;
+  padding-bottom: 3px;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+.react-calendar-dashboard :global(.react-calendar__tile.react-calendar__tile--now.react-calendar__tile--active){
+color:white;
+}
+.react-calendar-dashboard:global(.react-calendar
+    .react-calendar__navigation__arrow.react-calendar__navigation__prev2-button) {
+  margin-right: 0.5rem;
+}
+.react-calendar-dashboard:global(.react-calendar
+    .react-calendar__navigation__arrow.react-calendar__navigation__next2-button) {
+  margin-left: 0.5rem;
+}
+.react-calendar-dashboard:global(.react-calendar
+    .react-calendar__month-view__weekdays__weekday) {
+  padding-left: 0.55rem;
+}
+.react-calendar-dashboard.react-calendar:global(.react-calendar .react-calendar__navigation__label) {
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  color: var(--color-primary-700);
+  cursor: auto;
+}
+.View_Bulletin_img:global(.Image_upload_bulletin) {
+  width: 122px;
+  height: 100%;
+}
+.left_right_space {
+  margin-right: 0.25rem;
+  margin-left: 0.25rem;
+}
+.left_right_space.priority_right {
+  margin-right: 0.55rem;
+}
+.padding_todolist {
+  padding: 0.938rem;
+  height: unset;
+}
+.checked-dashbaord-list{
+  height: unset;
+}
+.checked-dashbaord-list.todolist_box{
+  padding-right: 1.875rem;
+}
+.separator_padding {
+  padding-right: 0rem;
+  padding-left: 0rem;
+  border: 0px solid var(--border-color);
+}
+.add_task_dashboard {
+  padding: 0.55rem;
+  border-radius: 5px;
+  height:3.5rem;
+}
+.date_padding{
+  height:4.5rem !important;
+}
+.todo_addTask_box {
+  padding: 0.875rem !important;
+}
+.error_date {
+  padding-left: 0.75rem;
+}
+.users_space {
+  min-width: 6.5rem;
+  max-width: 8.5rem;
+}
+.date_padding
+  :global(.side-datepicker .react-datepicker__input-container input) {
+    padding: 0.125rem 0.75rem 0.5rem !important;
+  }
+  .date_padding :global(.dashboard-datePicker.side-datepicker .side_date) {
+    background: transparent
+      url(../images/Side-images/Iconfeather-calendars.svg) 95% 30% no-repeat;
+  }
+.dashboard_maxHeight{
+  max-height: 20rem;
+}
+.dash_date_box{
+  padding:0.5rem 1rem;
+}
+.padding_todolist{
+  padding:0.5rem 1.25rem;
+}
+.mycalendar_dashboard_event_border{
+  border:1px solid var(--border-color);
+}
+.Master_bulletin_Settings:global(.img_upload_space),
+.View_bulletin_Dashboard:global(.img_upload_space) {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  height: 100%;
+}
+
+.Master_bulletin_Settings:global(.img_upload_space) {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.Master_bulletin_Settings:global(.img_upload_space .Master_img_width) {
+  padding-bottom: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.Master_bulletin_Settings:global(.img_upload_space .Master_img_width.bulletin_images) {
+  margin-right: 0rem !important;
+}
+.each_select_width:global(.dashboard-select) {
+  width: 8rem !important;
+}
+.dashboard-container:global(.side-containerP) {
+  margin-right: 2rem;
+}
+.Calendar_box :global(.studio___name.Total_list_name){
+  min-width: 30%;
+  max-width: 100%;
+}
+.dashboard-col-res:global(.col-md-1_30) {
+  flex: 0 0 30%;
+  max-width: 30%;
+}
+@media only screen and (min-width: 320px) and (max-width: 1023px) {
+.dash_date_box,
+.padding_todolist{
+  padding:0.5rem;
+}
+.dashbaord_box {
+  padding: 0.75rem;
+}
+.users_space {
+  min-width: 3.5rem;
+  max-width: 4.5rem;
+}
+.checked-dashbaord-list.todolist_box{
+  padding-right: 0.5rem;
+}
+.date_padding{
+height: 3.5rem;
+width: 9.5rem;
+padding: 0.25rem 0.125rem !important;
+}
+.add_task_dashboard {
+  padding: 0.25rem;
+  height:3.5rem;
+}
+.favourite_table :global(table tr th.dashbaord-actions-th),
+.favourite_table :global(table tr td.dashbaord-actions-td) {
+  width: 22% !important;
+}
+.each_select_width :global(._ERP-COMPONENTS_customSelect_container ._ERP-COMPONENTS_select_button){
+height:30px;
+}
+.Master_bulletin_Settings:global(.img_upload_space) {
+  grid-template-columns: repeat(2, auto);
+}
+
+.View_bulletin_Dashboard:global(.img_upload_space) {
+  grid-template-columns: repeat(1, auto);
+}
+.dashboard-container:global(.side-container) {
+  margin-right: 0.75rem;
+  padding: 0.75rem;
+}
+.dashboard-col-res:global(.col-md-1_30) {
+  flex: 0 0 35%;
+  max-width: 35%;
+}
+}
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+  .Brder_Right_dashboard:global(.col-md-3){
+    flex: 0 0 42%;
+    max-width: 42%;
+  }
+  .myCalendar_width:global(.col-md-9){
+    flex: 0 0 58%;
+    max-width: 58%;
+  }
+  .each_select_width:global(.dashboard-select) {
+    width: 3.5rem !important;
+  }
+  .date_padding
+:global(.side-datepicker .react-datepicker__input-container input) {
+  padding: 1.75rem 0.5rem 0.5rem !important;
+}
+.date_padding :global(.dashboard-datePicker.side-datepicker .side_date) {
+  background: transparent
+    url(../images/Side-images/Iconfeather-calendars.svg) 95% 95% no-repeat;
+}
+  }
+@media only screen and (min-width: 577px) and (max-width: 810px) {
+  .Brder_Right_dashboard:global(.col-md-3){
+    flex: 0 0 42%;
+    max-width: 42%;
+  }
+  .myCalendar_width:global(.col-md-9){
+    flex: 0 0 58%;
+    max-width: 58%;
+  }
+  .each_select_width:global(.dashboard-select) {
+    width: 4.5rem !important;
+  }
+  .date_padding
+:global(.side-datepicker .react-datepicker__input-container input) {
+  padding: 1.75rem 0.5rem 0.5rem !important;
+}
+.date_padding :global(.dashboard-datePicker.side-datepicker .side_date) {
+  background: transparent
+    url(../images/Side-images/Iconfeather-calendars.svg) 95% 95% no-repeat;
+}
+  }
+@media only screen and (min-width: 811px) and (max-width: 1023px) {
+.Brder_Right_dashboard:global(.col-md-3){
+  flex: 0 0 36%;
+  max-width: 36%;
+}
+.myCalendar_width:global(.col-md-9){
+  flex: 0 0 64%;
+  max-width: 64%;
+}
+.each_select_width:global(.dashboard-select) {
+  width: 6.25rem !important;
+}
+.date_padding
+:global(.side-datepicker .react-datepicker__input-container input) {
+  padding: 1.75rem 0.5rem 0.5rem !important;
+}
+.date_padding :global(.dashboard-datePicker.side-datepicker .side_date) {
+  background: transparent
+    url(../images/Side-images/Iconfeather-calendars.svg) 95% 95% no-repeat;
+}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1260px) {
+  .react-calendar-dashboard:global(.react-calendar
+      .react-calendar__month-view__weekdays__weekday) {
+    padding-left: 0.125rem;
+  }
+  .react-calendar-dashboard:global(.react-calendar
+      .react-calendar__navigation__arrow.react-calendar__navigation__prev2-button) {
+    margin-right: 0.25rem;
+  }
+  .react-calendar-dashboard:global(.react-calendar
+      .react-calendar__navigation__arrow.react-calendar__navigation__next2-button) {
+    margin-left: 0.25rem;
+  }
+  .react-calendar-dashboard:global(.react-calendar) {
+    padding: 0.638rem;
+  }
+  .todo_addTask_box {
+    padding: 0.55rem !important;
+  }
+  .Brder_Right_dashboard:global(.col-md-3){
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+  .myCalendar_width:global(.col-md-9){
+    flex: 0 0 70%;
+    max-width: 70%;
+  }
+  .favourite_table :global(table tr th.dashbaord-actions-th),
+  .favourite_table :global(table tr td.dashbaord-actions-td) {
+    width: 20% !important;
+}
+.dashbaord_box {
+  padding: 1rem;
+}
+.Master_bulletin_Settings:global(.img_upload_space),
+.View_bulletin_Dashboard:global(.img_upload_space) {
+  grid-template-columns: repeat(2, auto);
+}
+.dashboard-col-res:global(.col-md-1_30) {
+  flex: 0 0 33%;
+  max-width: 33%;
+}
+.date_padding{
+  height:5rem !important;
+}
+.each_select_width:global(.dashboard-select) {
+  width: 7.75rem !important;
+}
+}
+@media only screen and (min-width: 1261px) and (max-width: 1360px) {
+  .Master_bulletin_Settings:global(.img_upload_space),
+  .View_bulletin_Dashboard:global(.img_upload_space) {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+@media only screen and (min-width: 1261px) and (max-width: 1279px) {
+  .react-calendar-dashboard:global(.react-calendar
+      .react-calendar__month-view__weekdays__weekday) {
+    padding-left: 0.125rem;
+  }
+  .react-calendar-dashboard:global(.react-calendar
+      .react-calendar__navigation__arrow.react-calendar__navigation__prev2-button) {
+    margin-right: 0.25rem;
+  }
+  .react-calendar-dashboard:global(.react-calendar
+      .react-calendar__navigation__arrow.react-calendar__navigation__next2-button) {
+    margin-left: 0.25rem;
+  }
+  .react-calendar-dashboard:global(.react-calendar) {
+    padding: 0.638rem;
+  }
+  .todo_addTask_box {
+    padding: 0.55rem !important;
+  }
+  .Brder_Right_dashboard:global(.col-md-3){
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+  .myCalendar_width:global(.col-md-9){
+    flex: 0 0 70%;
+    max-width: 70%;
+  }
+}
+@media only  screen and (min-width: 1280px) and (max-width: 1300px) {
+  .react-calendar-dashboard:global(.react-calendar
+      .react-calendar__month-view__weekdays__weekday) {
+    padding-left: 0.125rem;
+  }
+  .react-calendar-dashboard:global(.react-calendar
+      .react-calendar__navigation__arrow.react-calendar__navigation__prev2-button) {
+    margin-right: 0.25rem;
+  }
+  .react-calendar-dashboard:global(.react-calendar
+      .react-calendar__navigation__arrow.react-calendar__navigation__next2-button) {
+    margin-left: 0.25rem;
+  }
+  .react-calendar-dashboard:global(.react-calendar) {
+    padding: 0.638rem;
+  }
+  .todo_addTask_box {
+    padding: 0.55rem !important;
+  }
+  .Brder_Right_dashboard:global(.col-md-3){
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+  .myCalendar_width:global(.col-md-9){
+    flex: 0 0 70%;
+    max-width: 70%;
+  }
+  .favourite_table :global(table tr th.dashbaord-actions-th),
+  .favourite_table :global(table tr td.dashbaord-actions-td) {
+    width: 17% !important;
+}
+}
+@media only screen and (min-width: 1301px) and (max-width: 1365px) {
+  .react-calendar-dashboard:global(.react-calendar
+      .react-calendar__month-view__weekdays__weekday) {
+    padding-left: 0.125rem;
+  }
+  .react-calendar-dashboard:global(.react-calendar
+      .react-calendar__navigation__arrow.react-calendar__navigation__prev2-button) {
+    margin-right: 0.25rem;
+  }
+  .react-calendar-dashboard:global(.react-calendar
+      .react-calendar__navigation__arrow.react-calendar__navigation__next2-button) {
+    margin-left: 0.25rem;
+  }
+  .react-calendar-dashboard:global(.react-calendar) {
+    padding: 0.638rem;
+  }
+  .todo_addTask_box {
+    padding: 0.55rem !important;
+  }
+  .Brder_Right_dashboard:global(.col-md-3){
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+  .myCalendar_width:global(.col-md-9){
+    flex: 0 0 70%;
+    max-width: 70%;
+  }
+}
+@media only screen and (min-width: 1366px) and (max-width: 1400px) {
+  .todo_addTask_box {
+    padding: 0.55rem 0.625rem !important;
+  }
+  .Brder_Right_dashboard:global(.col-md-3){
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+  .myCalendar_width:global(.col-md-9){
+    flex: 0 0 70%;
+    max-width: 70%;
+  }
+}
+@media only screen and (min-width: 1401px) and (max-width: 1440px) {
+  .todo_addTask_box {
+    padding: 0.55rem 0.625rem !important;
+  }
+  .date_padding
+  :global(.side-datepicker .react-datepicker__input-container input) {
+    padding: 0.55rem 0.75rem 0.5rem !important;
+  }
+}
+@media only screen and (min-width: 1441px) and (max-width: 1590px) {
+  .todo_addTask_box {
+    padding: 0.55rem 0.625rem !important;
+  }
+  .dashboard_maxHeight{
+    max-height:calc(100vh - 25rem);
+  }
+}
+@media only screen and (min-width: 1600px) and (max-width: 1679px) {
+  .todo_addTask_box {
+    padding: 0.55rem 0.625rem !important;
+  }
+  .dashboard_todo_input {
+    width: calc(100vw - 79rem) !important;
+    margin-bottom: 0.125rem;  
+  }
+  .date_padding
+  :global(.side-datepicker .react-datepicker__input-container input) {
+    padding: 0.55rem 0.25rem 0.5rem !important;
+  }
+  .date_padding :global(.dashboard-datePicker.side-datepicker .side_date) {
+    background: transparent
+      url(../images/Side-images/Iconfeather-calendars.svg) 95% 50% no-repeat;
+  }
+  .error_date{
+    margin-top: -0.5rem !important;
+    padding-left: 0.285rem !important;
+  }
+}
+@media only screen and (min-width: 1680px) and (max-width: 1800px) {
+  .todo_addTask_box {
+    padding: 0.55rem 0.625rem !important;
+  }
+  .date_padding
+  :global(.side-datepicker .react-datepicker__input-container input) {
+    padding: 0.5rem 0.25rem 0.5rem !important;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1100px) {
+  .date_padding
+    :global(.side-datepicker .react-datepicker__input-container input) {
+      padding: 0.125rem 0rem 0.5rem !important;
+    }
+  }
+@media only screen and (min-width: 1101px) and (max-width: 1260px) {
+.date_padding
+  :global(.side-datepicker .react-datepicker__input-container input) {
+    padding: 0.55rem 0rem 0.5rem !important;
+  }
+  .date_padding :global(.dashboard-datePicker.side-datepicker .side_date) {
+    background: transparent
+      url(../images/Side-images/Iconfeather-calendars.svg) 95% 60% no-repeat;
+  }
+  .error_date{
+    margin-top: -0.75rem !important;
+    padding-left: 0.285rem !important;
+  }
+}
+@media only screen and (min-width: 1261px) and (max-width: 1300px) {
+.date_padding
+  :global(.side-datepicker .react-datepicker__input-container input) {
+    padding: 0.125rem 0.25rem 0.5rem !important;
+  }
+  .each_select_width:global(.dashboard-select) {
+    width: 8.25rem !important;
+  }
+}
+@media only screen and (min-width: 1301px) and (max-width: 1380px) {
+  .date_padding
+    :global(.side-datepicker .react-datepicker__input-container input) {
+      padding: 0.125rem 0.25rem 0.5rem !important;
+    }
+    .each_select_width:global(.dashboard-select) {
+      width: 7.5rem !important;
+    }
+  }
+@media only screen and (min-width: 1381px) and (max-width: 1410px) {
+.each_select_width:global(.dashboard-select) {
+  width: 8rem !important;
+}
+.date_padding
+:global(.side-datepicker .react-datepicker__input-container input) {
+  padding: 0.55rem 0.285rem 0.5rem !important;
+}
+.date_padding :global(.dashboard-datePicker.side-datepicker .side_date) {
+  background: transparent
+    url(../images/Side-images/Iconfeather-calendars.svg) 95% 30% no-repeat;
+}
+.error_date{
+  margin-top: -0.75rem !important;
+  padding-left: 0.285rem !important;
+}
+}
+@media only screen and (min-width: 1411px) and (max-width: 1500px) {
+  .each_select_width:global(.dashboard-select) {
+    width: 8rem !important;
+  }
+  .date_padding
+  :global(.side-datepicker .react-datepicker__input-container input) {
+    padding: 0.875rem 0.285rem 0.5rem !important;
+  }
+  .date_padding :global(.dashboard-datePicker.side-datepicker .side_date) {
+    background: transparent
+      url(../images/Side-images/Iconfeather-calendars.svg) 95% 70% no-repeat;
+  }
+  .error_date {
+    margin-top: -0.5rem !important;
+    padding-left: 0.285rem !important;
+  }
+  }

@@ -1,0 +1,68 @@
+.custom-select--flat {
+  position: relative;
+  --rounded: 20px;
+  --topRounded: 20px 20px 0 0;
+  --bottomRounded: 0px 0px 20px 20px;
+}
+
+.custom-select--flat:focus {
+  box-shadow: 0 0 0 0.2rem #91cf0040;
+}
+
+.custom-select--flat button {
+  border-radius: 10px !important;
+  text-align: left;
+}
+
+.custom-select--flat:focus button,
+.custom-select--flat button:focus {
+  border-radius: 10px 10px 0 0 !important;
+}
+
+.custom-select--flat:focus .options-container,
+.custom-select--flat button:focus + .options-container {
+  display: block;
+}
+.options-container {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  display: none;
+  border: 1px solid var(--border-color-gray);
+  border-radius: var(--bottomRounded);
+  background-color:  var(--bg-primary);
+  animation: popFadeIn 0.3s linear;
+  transform-origin: 0%;
+  z-index: 1;
+}
+
+.options-container ul {
+  padding-bottom: var(--rounded);
+  margin-bottom: 0;
+  border-radius: var(--bottomRounded);
+  margin-top: 10px;
+}
+
+.options-container li {
+  padding: 8px 18px;
+  font-size: 1rem;
+  color: var(--color-light-primary);
+  cursor: pointer;
+}
+
+.options-container li.active {
+  background-color: var(--bg-green-700);
+  color: white;
+}
+
+@keyframes popFadeIn {
+  0% {
+    transform: scaleY(0.8);
+    opacity: 0.5;
+  }
+  0% {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+}
